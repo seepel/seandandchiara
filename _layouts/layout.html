@@ -1,0 +1,28 @@
+<!DOCTYPE HTML>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+    <meta name="description" content="Twitter Bootstrap Basic Tab Based Navigation Example"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link href="/css/main.css" rel="stylesheet"/>
+    <link href="/css/ss-social.css" rel="stylesheet"/>
+  </head>
+  <body>
+    <header> 
+    <h1>Sean + Chiara</h1>
+    <h2>06.27.15</h2>
+    <nav>
+    {% include nav.md %}
+    </nav>
+    </header>
+    <div id="content">
+    {{ content }}
+    </div>
+
+    <footer>
+      <p class="copyright"> Copyright © Sean Lynch 2013 </p>
+    </footer>
+  </body>
+</html>
