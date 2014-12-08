@@ -8,11 +8,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <link href="/css/main.css" rel="stylesheet"/>
     <link href="/css/ss-social.css" rel="stylesheet"/>
+<!--
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script>
+      $(document).ready(function(){
+        $('a[href^="#"]').on('click',function (e) {
+          e.preventDefault();
+
+          var target = this.hash;
+          $target = $(target);
+
+          $('html, body').stop().animate({
+            'scrollTop': $target.offset().top
+          }, 900, 'swing');
+        });
+      });
+    </script>
+-->
   </head>
   <body>
     <header> 
-    <h1>Sean + Chiara</h1>
-    <h2>06.27.15</h2>
     <nav>
     
 <a href="/en/rsvp">RSVP</a>
@@ -23,8 +38,15 @@
 
     </nav>
     </header>
-    <div id="content">
-    <p>Do we have hotel rooms already? If so snatch them up!</p>
+    <div id="content" class="parallax">
+      <div id="title_group" class="parallax__group">
+        <div id="title" class="parallax__layer parallax__layer--back" style="background:url('/img/cs-0590.jpg'); background-position: 53% 52%">
+          <h1>Sean + Chiara</h1>
+          <h2>06.27.15</h2>
+        </div>
+      </div>
+
+      <p>Do we have hotel rooms already? If so snatch them up!</p>
 
 <p>Here are some other nice hotels</p>
 
@@ -38,7 +60,7 @@
     </div>
 
     <footer>
-      <p class="copyright"> Copyright © Sean Lynch 2013 </p>
+    <p class="copyright"> Copyright © Sean Lynch 2013 </p>
     </footer>
   </body>
 </html>

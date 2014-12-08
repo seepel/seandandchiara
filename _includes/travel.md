@@ -1,8 +1,4 @@
 {% assign travel_pages= site.pages | sort: 'ordinal' %}
-<div id="left" style="background-image:url('/img/saluzzo.jpg')">
-</div>
-
-<div id="right">
 
 <ul id="left">
 {% for sub_page in travel_pages %}
@@ -12,7 +8,7 @@
 {% endfor %}
 </ul>
 
-<div id="right_content">
+<div id="right">
 {% for sub_page in travel_pages %}
 {% if sub_page.category == 'travel' and sub_page.lang == page.lang %}
 <h3> {{sub_page.title}} </h3>
@@ -21,7 +17,6 @@
 {% endif %}
 
 {% endfor %}
-</div>
 
 </div>
 

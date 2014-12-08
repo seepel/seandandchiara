@@ -8,25 +8,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <link href="/css/main.css" rel="stylesheet"/>
     <link href="/css/ss-social.css" rel="stylesheet"/>
+<!--
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script>
+      $(document).ready(function(){
+        $('a[href^="#"]').on('click',function (e) {
+          e.preventDefault();
+
+          var target = this.hash;
+          $target = $(target);
+
+          $('html, body').stop().animate({
+            'scrollTop': $target.offset().top
+          }, 900, 'swing');
+        });
+      });
+    </script>
+-->
   </head>
   <body>
     <header> 
-    <h1>Sean + Chiara</h1>
-    <h2>06.27.15</h2>
     <nav>
     
-<a href="/en/rsvp">RSVP</a>
-<a href="/en/events">EVENTS</a>
+<a href="#rsvp">RSVP</a>
+<a href="#event">EVENTS</a>
 <a href="/en/saluzzo">SALUZZO</a>
-<a href="/en/travel">TRAVEL</a>
-<a href="/en/registry">REGISTRY</a>
-<a href="/en/gallery">GALLERY</a>
+<a href="#travel">TRAVEL</a>
+<a href="#registry">REGISTRY</a>
+<a href="#gallery">GALLERY</a>
 
 
     </nav>
     </header>
-    <div id="content">
-    <h2 id="how-to-contact-me">How To Contact Me</h2>
+    <div id="content" class="parallax">
+      <div id="title_group" class="parallax__group">
+        <div id="title" class="parallax__layer parallax__layer--back" style="background:url('/img/cs-0590.jpg'); background-position: 53% 52%">
+          <h1>Sean + Chiara</h1>
+          <h2>06.27.15</h2>
+        </div>
+      </div>
+
+      <h2 id="how-to-contact-me">How To Contact Me</h2>
 <p>If you would like to get a hold of me why not send me a message on twitter? You will find me there with the screen name <a href="https://twitter.com/seepel">@seepel</a>. I should be using twitter more often, so don’t hesitate. While you’re there, why not follow me?</p>
 
 <p>I prefer not to disclose my email address to the spammers of the world. That being said, if you think it is serious enough to email me, you can reach me with the email address sean at this domain. </p>
@@ -34,7 +56,7 @@
     </div>
 
     <footer>
-      <p class="copyright"> Copyright © Sean Lynch 2013 </p>
+    <p class="copyright"> Copyright © Sean Lynch 2013 </p>
     </footer>
   </body>
 </html>

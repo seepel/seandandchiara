@@ -8,34 +8,165 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <link href="/css/main.css" rel="stylesheet"/>
     <link href="/css/ss-social.css" rel="stylesheet"/>
+<!--
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script>
+      $(document).ready(function(){
+        $('a[href^="#"]').on('click',function (e) {
+          e.preventDefault();
+
+          var target = this.hash;
+          $target = $(target);
+
+          $('html, body').stop().animate({
+            'scrollTop': $target.offset().top
+          }, 900, 'swing');
+        });
+      });
+    </script>
+-->
   </head>
   <body>
     <header> 
-    <h1>Sean + Chiara</h1>
-    <h2>06.27.15</h2>
     <nav>
     
-<a href="/en/rsvp">RSVP</a>
-<a href="/en/events">EVENTS</a>
+<a href="#rsvp">RSVP</a>
+<a href="#event">EVENTS</a>
 <a href="/en/saluzzo">SALUZZO</a>
-<a href="/en/travel">TRAVEL</a>
-<a href="/en/registry">REGISTRY</a>
-<a href="/en/gallery">GALLERY</a>
+<a href="#travel">TRAVEL</a>
+<a href="#registry">REGISTRY</a>
+<a href="#gallery">GALLERY</a>
 
 
     </nav>
     </header>
-    <div id="content">
-    <p>Not translated</p>
+    <div id="content" class="parallax">
+      <div id="title_group" class="parallax__group">
+        <div id="title" class="parallax__layer parallax__layer--back" style="background:url('/img/cs-0590.jpg'); background-position: 53% 52%">
+          <h1>Sean + Chiara</h1>
+          <h2>06.27.15</h2>
+        </div>
+      </div>
 
-<h3 id="welcome">Welcome</h3>
-<p>Welcome to our wedding site! We hope you enjoy the travel info, pics, event details, and much more! Don’t forget to RSVP and get the app!</p>
+      <div class="anchor" id="welcome"></div>
+
+<div id="welcome_group" class="parallax__group">
+<div id="welcome_layer" class="parallax__layer parallax__layer--base">
+<div id="welcome_container">
+<h3>WELCOME</h3>
+Welcome to the official wedding website for Sean and Chiara. We had so much fun getting married we thought we'd try it again. You'll find all the relevant details here.
+</div>
+</div>
+</div>
+
+<div class="anchor" id="event"></div>
+<div id="event_group" class="parallax__group">
+<div id="event_layer" class="parallax__layer parallax__layer--base">
+<div id="event_title">
+<div id="event_line"></div>
+<h3>THE EVENT </h3>
+</div>
+<div id="event_content">
+Where is it. It's here.
+ <br />
+Is it over there? No. It's here.
+ <br />
+It starts at N o'clock.
+ <br />
+It ends at N o'clock.
+ <br />
+We'll be eating a bunch of awesome Italian Food.
+ <br />
+Then we'll dance.
+ <br />
+</div>
+</div>
+<div id="event_background" class="parallax__layer parallax__layer--back">
+</div>
+</div>
+
+<div class="anchor" id="travel"></div>
+
+<div id="travel_group" class="parallax__group">
+<div id="travel_layer" class="parallax__layer parallax__layer--base">
+<h3>GETTING THERE</h3>
+<h4>SALUZZO</h4>
+Go to saluzzo, it's way more fun.
+<h4>Flights</h4>
+Fly to Turin, Nice or Milan 
+
+turin -&gt; train 
+
+nice -&gt; car 
+
+Milan -&gt; train to turin and train to saluzzo
+
+<h4>Transportation</h4>
+
+Car Rentals Trains/Buses
+
+<h4>Accomodation</h4>
+
+Do we have hotel rooms already? If so snatch them up!
+
+Here are some other nice hotels
+
+Hotel 1
+Hotel 2
+Hotel 3
+Hotel 4
+
+</div>
+
+<div id="travel_background" class="parallax__layer parallax__layer--back red"> travel Back </div>
+</div>
+
+<!--
+<div class="anchor" id="registry"></div>
+<div class="parallax__group">
+<div class="parallax__layer parallax__layer--base">
+<h3>Registry</h3>
+
+No gifts please.
+
+<h4>Charity</h4>
+Try one of these charities
+
+Chiara's charity | Sean's Charity
+
+<h4>If you must</h4>
+You can send us something, here is a convenient Amazon List
+</div>
+<div class="parallax__layer parallax__layer--back blue"> registry Back </div>
+</div>
+
+
+<div class="anchor" id="rsvp"></div>
+<div class="parallax__group">
+<div class="parallax__layer parallax__layer--base">
+<h3>RSVP</h3>
+RSVP NOW!
+</div>
+<div class="parallax__layer parallax__layer--back red"> rsvp Back </div>
+</div>
+
+
+<div class="anchor" id="gallery"></div>
+<div class="parallax__group">
+<div class="parallax__layer parallax__layer--base">
+<h3>Gallery</h3>
+
+Cool pictures coming soon!
+</div>
+<div class="parallax__layer parallax__layer--back blue"> gallery Back </div>
+</div>
+-->
 
 
     </div>
 
     <footer>
-      <p class="copyright"> Copyright © Sean Lynch 2013 </p>
+    <p class="copyright"> Copyright © Sean Lynch 2013 </p>
     </footer>
   </body>
 </html>
