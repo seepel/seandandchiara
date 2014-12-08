@@ -48,6 +48,7 @@ Then we'll dance.
 <div id="travel_group" class="parallax__group">
 <div id="travel_layer" class="parallax__layer parallax__layer--base">
 <h3>GETTING THERE</h3>
+<div id="travel_content">
 <h4>SALUZZO</h4>
 Go to saluzzo, it's way more fun.
 <h4>Flights</h4>
@@ -74,6 +75,7 @@ Hotel 2
 Hotel 3
 Hotel 4
 
+</div>
 </div>
 
 <div id="travel_background" class="parallax__layer parallax__layer--back red"> travel Back </div>
