@@ -8,79 +8,40 @@ lang: en
 
 <div class="anchor" id="welcome"></div>
 
-<div id="welcome_group" class="parallax__group">
-<div id="welcome_layer" class="parallax__layer parallax__layer--base">
-<div id="welcome_container" >
-<h3>WELCOME</h3>
-Welcome to the official wedding website for Sean and Chiara. We had so much fun getting married we thought we'd try it again. You'll find all the relevant details here.
-</div>
-</div>
-</div>
+<section id="welcome_section">
+{% capture welcome_include %}{% include welcome_en.md %}{% endcapture %}
+{{ welcome_include | markdownify }}
+</section>
 
 <div class="anchor" id="event"></div>
-<div id="event_group" class="parallax__group">
-<div id="event_layer" class="parallax__layer parallax__layer--base">
-<div id="event_title">
-<div id="event_line"></div>
-<h3>THE EVENT </h3>
+<div class="content_background" id="event_background"></div>
+<div class="heading_bg">
+<h3 class="heading">THE EVENT </h3>
 </div>
-<div id="event_content">
-Where is it. It's here.
- <br/>
-Is it over there? No. It's here.
- <br/>
-It starts at N o'clock.
- <br/>
-It ends at N o'clock.
- <br/>
-We'll be eating a bunch of awesome Italian Food.
- <br/>
-Then we'll dance.
- <br/>
-</div>
-</div>
-<div id="event_background" class="parallax__layer parallax__layer--back">
-</div>
-</div>
+<section id="event_section">
+{% capture event_include %}{% include event_en.md %}{% endcapture %}
+{{ event_include | markdownify }}
+</section>
 
 <div class="anchor" id="travel"></div>
-
-<div id="travel_group" class="parallax__group">
-<div id="travel_layer" class="parallax__layer parallax__layer--base">
-<h3>GETTING THERE</h3>
-<div id="travel_content">
-<h4>SALUZZO</h4>
-Go to saluzzo, it's way more fun.
-<h4>Flights</h4>
-Fly to Turin, Nice or Milan 
-
-turin -> train 
-
-nice -> car 
-
-Milan -> train to turin and train to saluzzo
-
-<h4>Transportation</h4>
-
-Car Rentals Trains/Buses
-
-<h4>Accomodation</h4>
-
-Do we have hotel rooms already? If so snatch them up!
-
-Here are some other nice hotels
-
-Hotel 1
-Hotel 2
-Hotel 3
-Hotel 4
-
+<div class="content_background" id="travel_background"></div>
+<div class="heading_bg">
+<h3 class="heading">GETTING THERE</h3>
 </div>
-</div>
+<section id="travel_section">
+{% capture travel_include %}{% include travel_en.md %}{% endcapture %}
+{{ travel_include | markdownify }}
+</section>
 
-<div id="travel_background" class="parallax__layer parallax__layer--back red"> travel Back </div>
+<div class="anchor" id="accomodation"></div>
+<div class="content_background" id="accomodation_background"></div>
+<div class="heading_bg">
+<h3>Accomodation</h3>
 </div>
-
+<section id="accomodation_section">
+{% capture accomodation_include %}{% include accomodation_en.md %}{% endcapture %}
+{{ accomodation_include | markdownify }}
+</section>
 <!--
 <div class="anchor" id="registry"></div>
 <div class="parallax__group">
