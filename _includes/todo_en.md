@@ -3,26 +3,14 @@
 {{ '### MAKE IT A TRIP!' | markdownify }}
 <div class="text_line right"></div>
 </div>
-
-June is a great time to come visit Italy. The weather is nice, yet not too hot (around 68-80 F) and big cities are not excessively crowded with tourists (yet!). Here are a few ideas and useful info if you are planning on staying in ITaly for a few days. If need any tips or suggestion, please do not hesitate to contact Chiara at chiarafornasero@yahoo.com
-
- * Saluzzo
- * Turin
- * For the foodies: Le Langhe
- * For the sporties: Moviso’s valleys
- * Other famous Italian landmarks
- * 5 Terre
- * Venice
- * Milan
- * Rome
- * Florence
+  June is a great time to come visit Italy. The weather is nice, yet not too hot (around 68-80 F) and big cities are not excessively crowded with tourists (yet!). Here are a few ideas and useful info if you are planning on staying in ITaly for a few days. If need any tips or suggestion, please do not hesitate to contact Chiara at chiarafornasero@yahoo.com
 
 #### Saluzzo
 Chiara’s hometown is an ancient medieval and Renaissance town in the north west of Italy, int he region of Piedmont.This is article has a great summary of what make Saluzzo special and a few useful tips for visitors: [http://www.miomyitaly.com/saluzzo.html](http://www.miomyitaly.com/saluzzo.html)
 
-#### June 25-30
+##### June 25-30
 
-##### Tours and trips
+###### Tours and trips
   We are thinking of organizing group tours of the town of Saluzzo and surrounding areas, such as Turin, the wine region of Le Langhe and maybe a trip to the mountains.   
 We’ll keep you posted!
 

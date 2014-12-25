@@ -7,6 +7,8 @@
 @beige: rgb(224, 190, 164);
 @red: rgb(191, 68, 77);
 
+@top-height: 75px;
+
 html {
   body {
     margin: 0;
@@ -14,12 +16,12 @@ html {
 
     header {
       nav {
-        height: 50px;
+        height: @top-height;
         padding-top: 25px;
       }
       position: fixed;
       width: 100%;
-      height: 50px;
+      height: @top-height;
       text-align: center;
       border-width: 1px;
       border-style: none;
@@ -35,27 +37,24 @@ html {
       position: absolute;
       .anchor {
         position: relative;
-        top: -50px;
+        top: -@top-height;
       }
 
       .text_line {
         position: absolute;
         top: 80px;
-        width: 50%;
         height: 1px;
         background-color: black;
-        
-        
       }
 
       .left {
-        left: 0;
+        left: 15px;
         right: 50%;
       }
 
       .right {
         left: 50%;
-        right: 0;
+        right: 15px;;
       }
      
       h3 {
@@ -114,11 +113,11 @@ html {
       }
 
       #header_space {
-        height: 50px;
+        height: @top-height;
       }
       
       #title_group {
-        height: 300px;
+        height: 375px;
         z-index: -1;
         #title_background {
           text-align: center;
@@ -128,6 +127,18 @@ html {
           background-position: 53% 52%;
           top: -500px;
           z-index: -1;
+        }
+      }
+
+      #footer_group {
+        height: 375px;
+        #footer_background {
+          -webkit-transform: translateZ(90px) translateY(-145px) scale(0.7);
+          width: 100%;
+          height: 100%;
+          background:url('/img/cs-0644.jpg'); 
+          background-position: 53% 60%;
+          background-size: 100%;
         }
       }
 
@@ -170,9 +181,14 @@ html {
         }
       }
 
+      #timer_group {
+        height: 500px;
+      }
+
       #timer_layer_back {
         background: url("/img/castello.jpg");
         background-size: cover;
+        background-position: 50%;
         height: 100vh;
       }
 
@@ -189,7 +205,23 @@ html {
       h4 {
         margin: 0;
         font-size: 200%;
-        text-align: center;
+        padding-left: 15px;
+      }
+
+      h5 {
+        font-size: 140%;
+        padding-left: 15px;
+      }
+
+      .info {
+        h5 {
+          margin: 0;
+        }
+        ul {
+          list-style: none;
+          padding-left: 15px;
+          margin-top: 0;
+        }
       }
 
       #event_section {
@@ -198,20 +230,46 @@ html {
         }
         h4 {
           color: gray;
+          text-align: center;
         }
         h5 {
-          margin-bottom: 5px;
           font-size: 200%;
+          margin-bottom: 5px;
         }
-        p {
-          padding-left: 0;
+      }
+
+      #travel_section {
+        h4 {
+          margin-bottom: 10px;
         }
+        .half {
+          h4 {
+            text-align: center;
+          }
+        }
+      }
+
+      .sub_section {
+        margin-bottom: 60px;
       }
 
       .white {
         background-color: white;
         padding-top: 25px;
         padding-bottom: 25px;
+      }
+
+      #map {
+        height: 500px;
+        position: relative;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        border-top-style: solid;
+        border-top-color: black;
+        border-top-width: 1px;
+        border-bottom-style: solid;
+        border-bottom-color: black;
+        border-bottom-width: 1px;
       }
 
       section {

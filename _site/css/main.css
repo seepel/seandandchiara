@@ -1,23 +1,19 @@
 /* Parallax base styles
   --------------------------------------------- */
 .parallax {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
   height: 500px;
   /* fallback for older browsers */
   height: 100vh;
   overflow-x: hidden;
   overflow-y: auto;
-  -webkit-perspective: 1px;
-  perspective: 1px;
+  -webkit-perspective: 300px;
+  perspective: 300px;
 }
 .parallax__group {
   position: relative;
   height: 500px;
   /* fallback for older browsers */
+  height: 100vh;
   -webkit-transform-style: preserve-3d;
   transform-style: preserve-3d;
 }
@@ -29,8 +25,8 @@
   bottom: 0;
 }
 .parallax__layer--fore {
-  -webkit-transform: translateZ(10px) scale(0.7);
-  transform: translateZ(10px) scale(0.7);
+  -webkit-transform: translateZ(90px) scale(0.7);
+  transform: translateZ(90px) scale(0.7);
   z-index: 1;
 }
 .parallax__layer--base {
@@ -39,13 +35,13 @@
   z-index: 4;
 }
 .parallax__layer--back {
-  -webkit-transform: translateZ(-1px) scale(2);
-  transform: translateZ(-1px) scale(2);
+  -webkit-transform: translateZ(-300px) scale(2);
+  transform: translateZ(-300px) scale(2);
   z-index: 3;
 }
 .parallax__layer--deep {
-  -webkit-transform: translateZ(-100px) scale(3);
-  transform: translateZ(-100px) scale(3);
+  -webkit-transform: translateZ(-600px) scale(3);
+  transform: translateZ(-600px) scale(3);
   z-index: 2;
 }
 /* Debugger styles - used to show the effect
@@ -79,7 +75,7 @@ html body {
 html body header {
   position: fixed;
   width: 100%;
-  height: 50px;
+  height: 75px;
   text-align: center;
   border-width: 1px;
   border-style: none;
@@ -90,7 +86,7 @@ html body header {
   top: 0;
 }
 html body header nav {
-  height: 50px;
+  height: 75px;
   padding-top: 25px;
 }
 html body #content {
@@ -99,22 +95,21 @@ html body #content {
 }
 html body #content .anchor {
   position: relative;
-  top: -50px;
+  top: -75px;
 }
 html body #content .text_line {
   position: absolute;
   top: 80px;
-  width: 50%;
   height: 1px;
   background-color: black;
 }
 html body #content .left {
-  left: 0;
+  left: 15px;
   right: 50%;
 }
 html body #content .right {
   left: 50%;
-  right: 0;
+  right: 15px;
 }
 html body #content h3 {
   display: inline-block;
@@ -165,10 +160,10 @@ html body #content ol {
   margin-right: auto;
 }
 html body #content #header_space {
-  height: 50px;
+  height: 75px;
 }
 html body #content #title_group {
-  height: 300px;
+  height: 375px;
   z-index: -1;
 }
 html body #content #title_group #title_background {
@@ -179,6 +174,17 @@ html body #content #title_group #title_background {
   background-position: 53% 52%;
   top: -500px;
   z-index: -1;
+}
+html body #content #footer_group {
+  height: 375px;
+}
+html body #content #footer_group #footer_background {
+  -webkit-transform: translateZ(90px) translateY(-145px) scale(0.7);
+  width: 100%;
+  height: 100%;
+  background: url('/img/cs-0644.jpg');
+  background-position: 53% 60%;
+  background-size: 100%;
 }
 html body #content #title {
   text-align: center;
@@ -216,9 +222,13 @@ html body #content #welcome_group section {
   position: relative;
   text-align: center;
 }
+html body #content #timer_group {
+  height: 500px;
+}
 html body #content #timer_layer_back {
   background: url("/img/castello.jpg");
   background-size: cover;
+  background-position: 50%;
   height: 100vh;
 }
 html body #content #timer_layer {
@@ -233,25 +243,56 @@ html body #content #timer_layer {
 html body #content h4 {
   margin: 0;
   font-size: 200%;
-  text-align: center;
+  padding-left: 15px;
+}
+html body #content h5 {
+  font-size: 140%;
+  padding-left: 15px;
+}
+html body #content .info h5 {
+  margin: 0;
+}
+html body #content .info ul {
+  list-style: none;
+  padding-left: 15px;
+  margin-top: 0;
 }
 html body #content #event_section h3 {
   margin-bottom: 5px;
 }
 html body #content #event_section h4 {
   color: gray;
+  text-align: center;
 }
 html body #content #event_section h5 {
-  margin-bottom: 5px;
   font-size: 200%;
+  margin-bottom: 5px;
 }
-html body #content #event_section p {
-  padding-left: 0;
+html body #content #travel_section h4 {
+  margin-bottom: 10px;
+}
+html body #content #travel_section .half h4 {
+  text-align: center;
+}
+html body #content .sub_section {
+  margin-bottom: 60px;
 }
 html body #content .white {
   background-color: white;
   padding-top: 25px;
   padding-bottom: 25px;
+}
+html body #content #map {
+  height: 500px;
+  position: relative;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border-top-style: solid;
+  border-top-color: black;
+  border-top-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: black;
+  border-bottom-width: 1px;
 }
 html body #content section {
   position: relative;

@@ -15,19 +15,19 @@ lang: en
 
 <div class="anchor" id="welcome"></div>
 <div class="white" id="welcome_group">
-<section id="welcome_section">
-<div id="title">
-  <h1>
-    <span id="sean">Sean</span>
-    <span id="and">&</span>
-    <span id="chiara">Chiara</span>
-  </h1>
-  <h2>06.27.15</h2>
-</div>
+  <section id="welcome_section">
+  <div id="title">
+    <h1>
+      <span id="sean">Sean</span>
+      <span id="and">&</span>
+      <span id="chiara">Chiara</span>
+    </h1>
+    <h2>06.27.15</h2>
+  </div>
 
-{% capture welcome_include %}{% include welcome_en.md %}{% endcapture %}
-{{ welcome_include | markdownify }}
-</section>
+  {% capture welcome_include %}{% include welcome_en.md %}{% endcapture %}
+  {{ welcome_include | markdownify }}
+  </section>
 </div>
 
 <div id="timer_group" class="parallax__group">
@@ -40,23 +40,44 @@ lang: en
 </div>
 
 <div class="white">
-<section id="event_section">
-    {% capture event_include %}{% include event_en.md %}{% endcapture %}
-    {{ event_include | markdownify }}
-</section>
+  <section id="event_section">
+  {% capture event_include %}{% include event_en.md %}{% endcapture %}
+  {{ event_include | markdownify }}
+  </section>
 
-<section id="travel_section">
-    {% capture travel_include %}{% include travel_en.md %}{% endcapture %}
-    {{ travel_include | markdownify }}
-</section>
+  <section id="travel_section">
+  {% capture travel_include %}{% include travel_en.md %}{% endcapture %}
+  {{ travel_include | markdownify }}
+  </section>
 
-<section id="accomodation_section">
-    {% capture accomodation_include %}{% include accomodation_en.md %}{% endcapture %}
-    {{ accomodation_include | markdownify }}
-</section>
+  <section id="accomodation_section">
+  {% capture accomodation_include %}{% include accomodation_en.md %}{% endcapture %}
+  {{ accomodation_include | markdownify }}
+  </section>
 
-<section id="todo_section">
-    {% capture todo_include %}{% include todo_en.md %}{% endcapture %}
-    {{ todo_include | markdownify }}
-</section>
+  <div id="map">
+    <script>
+      L.mapbox.accessToken = 'pk.eyJ1Ijoic2VlcGVsIiwiYSI6ImZtMnhmb00ifQ.-s0bpFVh6kO66jtyfeVMbw';
+      // Create a map in the div #map
+      var map = L.mapbox.map('map', 'seepel.kj0g5ke3');
+
+      // disable drag and zoom handlers
+      map.scrollWheelZoom.disable();
+      // disable tap handler, if present.
+      if (map.tap) map.tap.disable();
+    </script>
+  </div>
+
+  <section id="todo_section">
+  {% capture todo_include %}{% include todo_en.md %}{% endcapture %}
+  {{ todo_include | markdownify }}
+  </section>
+
 </div>
+
+<div id="footer_group" class="parallax__group">
+  <div id="footer_background" class="parallax__layer parallax__layer--fore">
+  </div>
+</div>
+
+

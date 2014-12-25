@@ -7,7 +7,9 @@
     <meta name="description" content="Twitter Bootstrap Basic Tab Based Navigation Example"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <link href="/css/main.css" rel="stylesheet"/>
-     <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Muli">
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Muli">
+    <script src="//api.tiles.mapbox.com/mapbox.js/v1.4.0/mapbox.js"></script>
+    <link href='https://api.tiles.mapbox.com/mapbox.js/v2.1.4/mapbox.css' rel='stylesheet' />
 <!--
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script>
@@ -50,18 +52,18 @@
 
 <div class="anchor" id="welcome"></div>
 <div class="white" id="welcome_group">
-<section id="welcome_section">
-<div id="title">
-  <h1>
-    <span id="sean">Sean</span>
-    <span id="and">&</span>
-    <span id="chiara">Chiara</span>
-  </h1>
-  <h2>06.27.15</h2>
-</div>
+  <section id="welcome_section">
+  <div id="title">
+    <h1>
+      <span id="sean">Sean</span>
+      <span id="and">&</span>
+      <span id="chiara">Chiara</span>
+    </h1>
+    <h2>06.27.15</h2>
+  </div>
 
-
-<p>Hi everyone! As you probably know Sean and I got married on December 12 of 2014 in San Francisco. We had a beautiful small ceremony with our parents and some of our closest friends.  </p>
+  
+  <p>Hi everyone! As you probably know Sean and I got married on December 12 of 2014 in San Francisco. We had a beautiful small ceremony with our parents and some of our closest friends.  </p>
 
 <p>We really wanted to be able to get to celebrate with all of you and have our American and Italian friends and families meet and get to know each other. We would love to have you at our wedding reception in Italy.  </p>
 
@@ -69,7 +71,7 @@
   We will update it with more details as we get closer to the date, so come back and check from time to time. Don’t forget to RSVP and shoot us an email if you have any question!  </p>
 
 
-</section>
+  </section>
 </div>
 
 <div id="timer_group" class="parallax__group">
@@ -82,9 +84,9 @@
 </div>
 
 <div class="white">
-<section id="event_section">
-    
-    <div>
+  <section id="event_section">
+  
+  <div>
 <div class="text_line left"></div>
 <h3 id="the-event">THE EVENT</h3>
 
@@ -109,17 +111,18 @@ We’ll be celebrating our wedding in a XIV century castle in the town of Castel
 </ul>
 
 
-</section>
+  </section>
 
-<section id="travel_section">
-    
-    <div>
+  <section id="travel_section">
+  
+  <div>
 <div class="text_line left"></div>
 <h3 id="travel-info">Travel Info</h3>
 
 <div class="text_line right"></div>
 </div>
 
+<div class="sub_section">
 <div class="half">
 
 <h4 id="flying">Flying</h4>
@@ -135,8 +138,7 @@ Torino Caselle airport: http://www.aeroportoditorino.it/en/hp_en.html </p>
 </ul>
 
 
-</div>
-<div class="half">
+</div><div class="half">
 
 <h4 id="driving">Driving</h4>
 
@@ -153,39 +155,43 @@ Car rentals at <a href="http://www.aeroportoditorino.it/en/passeggeri_en/traspor
 
 
 </div>
+</div>
 
+<div class="sub_section" id="taxi">
 <h4 id="suggested-taxi-services">Suggested taxi services:</h4>
 
-<div class="half">
+
+<div class="half info">
 
 <h5 id="michele-rossa">Michele Rossa</h5>
 <ul>
-  <li>Cell: +39 349 180 1832  </li>
-  <li>Email: michelerossa82@gmail.com  </li>
-  <li>Web: http://www.erremmeservice.it  </li>
+  <li><strong>Cell:</strong> +39 349 180 1832  </li>
+  <li><strong>Email:</strong> <a href="michelerossa82@gmail.com">mailto:michelerossa82@gmail.com</a> </li>
+  <li><strong>Web:</strong> <a href="http://www.erremmeservice.it">http://www.erremmeservice.it</a>  </li>
 </ul>
 
-</div>
-<div class="half">
+</div><div class="half info">
 
 <h5 id="taxi-saluzzo">Taxi Saluzzo</h5>
 <ul>
-  <li>Cell.: 39 338 20 27 262, Tel.: +39 0175 248589</li>
-  <li>Email: info@taxisaluzzo.it</li>
-  <li>Web: http://www.taxisaluzzo.it</li>
+  <li><strong>Cell:</strong> 39 338 20 27 262, </li>
+  <li><strong>Tel:</strong> +39 0175 248589</li>
+  <li><strong>Email:</strong> <a href="&#109;&#097;&#105;&#108;&#116;&#111;:&#105;&#110;&#102;&#111;&#064;&#116;&#097;&#120;&#105;&#115;&#097;&#108;&#117;&#122;&#122;&#111;&#046;&#105;&#116;">mailto:info@taxisaluzzo.it</a></li>
+  <li><strong>Web:</strong> <a href="http://www.taxisaluzzo.it">http://www.taxisaluzzo.it</a></li>
 </ul>
 
+</div>
 </div>
 
 <h4 id="from-geneva">From Geneva</h4>
 <p>Our suggested itinerary is to go go through the Mont blanc tunnel. In general, it will take you around 4 hours. More prcise details to come.</p>
 
 
-</section>
+  </section>
 
-<section id="accomodation_section">
-    
-    <div>
+  <section id="accomodation_section">
+  
+  <div>
 <div class="text_line left"></div>
 <h3 id="accomodation">Accomodation</h3>
 
@@ -195,73 +201,72 @@ Car rentals at <a href="http://www.aeroportoditorino.it/en/passeggeri_en/traspor
 <p>We really appreciate you coming from far away to celebrate with us, so the night of June 27th is on us! We have booked 2 blocks of rooms for the night of June 27 in two hotels in Saluzzo.<br />
 You just need to choose one and get in touch with the staff so that they can assign you a room. Be sure to let them know you are booking with the Fornasero-Lynch wedding and let them know asap if you are planning to stay additional days (you can enjoy our special rate at Antico Podere Propano for any additional day). </p>
 
-<div class="half">
+<div class="half info">
 
 <h4 id="hotel-griselda">Hotel Griselda</h4>
 
 <p>This a standard family-run hotel,  just a 5-minute walk from the center of town where all the shops, restaurants and main landmarks are. It’s the ideal choice if you are not planning to rent a car, because you can easily get around on foot.</p>
 
-<h5 id="contacts">Contacts</h5>
+<h5 id="info">Info</h5>
 <ul>
-  <li>Contact person: Danilo Rinaudo &amp; Nicolò Rinaudo</li>
-  <li>Address: Corso XXVII Aprile, 13, Saluzzo (CN) 12037, Italy</li>
-  <li>Tel. +39 0175 47484</li>
-  <li>Web: <a href="http://www.booking.com/hotel/it/griselda.html">http://www.booking.com/hotel/it/griselda.html</a></li>
-  <li>Email: <a href="mailto:info@hotelgriselda.it">mailto:info@hotelgriselda.it</a></li>
+  <li><strong>Contact person:</strong> Danilo Rinaudo &amp; Nicolò Rinaudo</li>
+  <li><strong>Address:</strong> Corso XXVII Aprile, 13, Saluzzo (CN) 12037, Italy</li>
+  <li><strong>Tel:</strong> +39 0175 47484</li>
+  <li><strong>Web:</strong> <a href="http://www.booking.com/hotel/it/griselda.html">http://www.booking.com/hotel/it/griselda.html</a></li>
+  <li><strong>Email:</strong> <a href="info@hotelgriselda.it">“mailto:info@hotelgriselda.it”</a></li>
 </ul>
 
 
 </div>
-<div class="half">
+<div class="half info">
 
 <h4 id="hotel-antico-podere-propano">Hotel Antico Podere Propano</h4>
 <p>This beautiful country hotel is a little oasis of peace and nature, 10 minutes by car Saluzzo’s downtown. It’s the ideal choice if you are looking for a country setting as it’s a little oasis of peace and nature right outside Saluzzo. However, you might need to have a car to reach Saluzzo’s city center.</p>
 
-<h5 id="contacts">Contacts</h5>
+<h5 id="info">Info</h5>
 <ul>
-  <li>Contact person: Jean Overton</li>
-  <li>Via Torino, 75 - 12037 Saluzzo (CN)</li>
-  <li>Tel.: + 39 0175 248087</li>
-  <li>Email: <a href="mailto:info@anticopoderepropano.com">info@anticopoderepropano.com</a></li>
-  <li>Web: <a href="http://www.anticopoderepropano.com/index.php?id=3912&amp;L=1">http://www.anticopoderepropano.com/index.php?id=3912&amp;L=1</a></li>
+  <li><strong>Contact person:</strong> Jean Overton</li>
+  <li><strong>Address:</strong> Via Torino, 75 - 12037 Saluzzo (CN)</li>
+  <li><strong>Tel:</strong> + 39 0175 248087</li>
+  <li><strong>Email:</strong> <a href="info@anticopoderepropano.com">mailto:info@anticopoderepropano.com</a></li>
+  <li>**Web: <a href="http://www.anticopoderepropano.com/index.php?id=3912&amp;L=1">http://www.anticopoderepropano.com/index.php?id=3912&amp;L=1</a></li>
 </ul>
 
 
 </div>
 
 
-</section>
+  </section>
 
-<section id="todo_section">
-    
-    <div>
+  <div id="map">
+    <script>
+      L.mapbox.accessToken = 'pk.eyJ1Ijoic2VlcGVsIiwiYSI6ImZtMnhmb00ifQ.-s0bpFVh6kO66jtyfeVMbw';
+      // Create a map in the div #map
+      var map = L.mapbox.map('map', 'seepel.kj0g5ke3');
+
+      // disable drag and zoom handlers
+      map.scrollWheelZoom.disable();
+      // disable tap handler, if present.
+      if (map.tap) map.tap.disable();
+    </script>
+  </div>
+
+  <section id="todo_section">
+  
+  <div>
 <div class="text_line left"></div>
 <h3 id="make-it-a-trip">MAKE IT A TRIP!</h3>
 
 <div class="text_line right"></div>
 </div>
-
 <p>June is a great time to come visit Italy. The weather is nice, yet not too hot (around 68-80 F) and big cities are not excessively crowded with tourists (yet!). Here are a few ideas and useful info if you are planning on staying in ITaly for a few days. If need any tips or suggestion, please do not hesitate to contact Chiara at chiarafornasero@yahoo.com</p>
-
-<ul>
-  <li>Saluzzo</li>
-  <li>Turin</li>
-  <li>For the foodies: Le Langhe</li>
-  <li>For the sporties: Moviso’s valleys</li>
-  <li>Other famous Italian landmarks</li>
-  <li>5 Terre</li>
-  <li>Venice</li>
-  <li>Milan</li>
-  <li>Rome</li>
-  <li>Florence</li>
-</ul>
 
 <h4 id="saluzzo">Saluzzo</h4>
 <p>Chiara’s hometown is an ancient medieval and Renaissance town in the north west of Italy, int he region of Piedmont.This is article has a great summary of what make Saluzzo special and a few useful tips for visitors: <a href="http://www.miomyitaly.com/saluzzo.html">http://www.miomyitaly.com/saluzzo.html</a></p>
 
-<h4 id="june-25-30">June 25-30</h4>
+<h5 id="june-25-30">June 25-30</h5>
 
-<h5 id="tours-and-trips">Tours and trips</h5>
+<h6 id="tours-and-trips">Tours and trips</h6>
 <p>We are thinking of organizing group tours of the town of Saluzzo and surrounding areas, such as Turin, the wine region of Le Langhe and maybe a trip to the mountains. <br />
 We’ll keep you posted!</p>
 
@@ -310,8 +315,16 @@ The most typical Aperitivo drink is Spritz: Aperol liquer, Prosecco white wine a
 <a href="Piemonteitalia">http://www.piemonteitalia.eu/en/comuni/dettaglio/21/cuneo/saluzzo.html</a></p>
 
 
-</section>
+  </section>
+
 </div>
+
+<div id="footer_group" class="parallax__group">
+  <div id="footer_background" class="parallax__layer parallax__layer--fore">
+  </div>
+</div>
+
+
 
     </div>
 
