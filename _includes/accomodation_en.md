@@ -1,17 +1,17 @@
-#### Hotel Antiche Mura
-  This hotel is located in Saluzzo's city center. It's in walking distance of Saluzzo's main street with all the shops, bars and restaurants. It also has a very nice restaurant and it’s close to Saluzzo landmarks in the old part of the town.
-We will soon book a block of rooms for the date of June 27. If you plan on staying in Saluzzo for a few days, we suggest you get in touch directly with the hotel reception to make your booking ( no worries, the staff speaks English!)
-  Address: Via Palazzo di Città, 75, Saluzzo, Cuneo, Italy (link to the map)
-Website: www.antichemurasaluzzo.com
-Email: info@antichemurasaluzzo.com
-Phone: +39.0175.46744
- 
-#### San Giovanni Resort
-  This is an amazing hotel that has been recently renovated. It's in the old town, inside the old cloister of the San Giovanni church, a medieval church dating back to the XII century. It's a 15 minutes walk from Saluzzo's main street. It's in the heart of the medieval town, surrounded by Saluzzo's landmarks such as the Torre Civica, the castle, the Casa Cavassa museum.
-  We will soon book a block of rooms for the date of June 27. If you plan on staying in Saluzzo for a few days, we suggest you get in touch directly with the hotel reception to make your booking ( no worries, the staff speaks English!)
-   
-   Website: www.sangiovanniresort.it
-   Address: San Giovanni, 9/a, Saluzzo, 12037 Cuneo, Italy
-   Phone: +39 0175 45420
+<div>
+<div class="text_line left"></div>
+{{ '### Accomodation' | markdownify }}
+<div class="text_line right"></div>
+</div>
 
+  We really appreciate you coming from far away to celebrate with us, so the night of June 27th is on us! We have booked 2 blocks of rooms for the night of June 27 in two hotels in Saluzzo.  
+You just need to choose one and get in touch with the staff so that they can assign you a room. Be sure to let them know you are booking with the Fornasero-Lynch wedding and let them know asap if you are planning to stay additional days (you can enjoy our special rate at Antico Podere Propano for any additional day). 
+
+<div class="half">
+{% capture griselda_include %}{% include griselda.md %}{% endcapture %}
+{{ griselda_include | markdownify }}
+</div><div class="half">
+{% capture antico_include %}{% include antico.md %}{% endcapture %}
+{{ antico_include | markdownify }}
+</div>
 
