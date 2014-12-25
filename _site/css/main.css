@@ -240,6 +240,14 @@ html body #content #timer_layer {
   transform: translateY(-50%);
   text-align: center;
 }
+html body #content #timer_layer .countdown-section {
+  display: inline-block;
+  padding: 15px;
+}
+html body #content #timer_layer .countdown-period {
+  display: block;
+  width: 222px;
+}
 html body #content h4 {
   margin: 0;
   font-size: 200%;
