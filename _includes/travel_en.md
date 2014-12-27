@@ -14,19 +14,12 @@
 </div>
 </div>
 
-<div class="sub_section" id="taxi">
-{{ '#### Suggested taxi services:' | markdownify }}
-
-<div class="half info">
-{% capture rosso_taxi_include %}{% include rosso_taxi.md %}{% endcapture %}
-{{ rosso_taxi_include | markdownify }}
-</div><div class="half info">
-{% capture saluzzo_taxi_include %}{% include saluzzo_taxi.md %}{% endcapture %}
-{{ saluzzo_taxi_include | markdownify }}
-</div>
+<div class="sub_section" id="taxi_sub_section">
+{% capture taxi_include %}{% include taxi.md %}{% endcapture %}
+{{ taxi_include | markdownify }}
 </div>
 
-
-#### From Geneva
-Our suggested itinerary is to go go through the Mont blanc tunnel. In general, it will take you around 4 hours. More prcise details to come.
-
+<div class="sub_section">
+{% capture public_transportation_include %}{% include public_transportation_en.md %}{% endcapture %}
+{{ public_transportation_include | markdownify }}
+</div>

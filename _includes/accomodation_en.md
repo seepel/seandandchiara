@@ -1,6 +1,6 @@
 <div>
 <div class="text_line left"></div>
-{{ '### Accomodation' | markdownify }}
+{{ '### Accommodation' | markdownify }}
 <div class="text_line right"></div>
 </div>
 

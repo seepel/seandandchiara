@@ -13,20 +13,7 @@
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="/js/jquery.plugin.min.js"></script>
     <script src="/js/jquery.countdown.js"></script>
-    <script>
-      $(document).ready(function(){
-        $('a[href^="#"]').on('click',function (e) {
-          e.preventDefault();
-
-          var target = this.hash;
-          $target = $(target);
-
-          $('html, body').stop().animate({
-            'scrollTop': $target.offset().top
-          }, 900, 'swing');
-        });
-      });
-    </script>
+    <script src="/js/scroll.js"></script>
   </head>
   <body>
     <header> 

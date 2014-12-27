@@ -1,6 +1,6 @@
 #### Hotel Antico Podere Propano
-  This beautiful country hotel is a little oasis of peace and nature, 10 minutes by car Saluzzo’s downtown. It’s the ideal choice if you are looking for a country setting as it’s a little oasis of peace and nature right outside Saluzzo. However, you might need to have a car to reach Saluzzo’s city center.
-
+  This a standard family-run hotel,  just a 5-minute walk from the center of town where all the shops, restaurants and main landmarks are. It’s the ideal choice if you are not planning to rent a car, because you can easily get around on foot.
+ 
 ##### Info
   * **Contact person:** Jean Overton
   * **Address:** Via Torino, 75 - 12037 Saluzzo (CN)

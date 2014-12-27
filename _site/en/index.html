@@ -13,31 +13,16 @@
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="/js/jquery.plugin.min.js"></script>
     <script src="/js/jquery.countdown.js"></script>
-    <script>
-      $(document).ready(function(){
-        $('a[href^="#"]').on('click',function (e) {
-          e.preventDefault();
-
-          var target = this.hash;
-          $target = $(target);
-
-          $('html, body').stop().animate({
-            'scrollTop': $target.offset().top
-          }, 900, 'swing');
-        });
-      });
-    </script>
+    <script src="/js/scroll.js"></script>
   </head>
   <body>
     <header> 
     <nav>
     
-<a href="#rsvp">RSVP</a>
 <a href="#event">EVENTS</a>
-<a href="/en/saluzzo">SALUZZO</a>
 <a href="#travel">TRAVEL</a>
-<a href="#registry">REGISTRY</a>
-<a href="#gallery">GALLERY</a>
+<a href="#accomodation">ACCOMMODATION</a>
+<a href="#tour">TOUR</a>
 
 
     </nav>
@@ -111,17 +96,16 @@ We will update it with more details as we get closer to the date, so come back a
 
 <h5 id="venue">Venue:</h5>
 <p>Castello di Castellar, Via Cambiano 11, Castellar (CN), Italy<br />
-We’ll be celebrating our wedding in a XIV century castle in the town of Castellar, at the foothills of the Italian Alps. Find more info here: <a href="http://www.castellodicastellar.it/index-english.html">http://www.castellodicastellar.it/index-english.html</a></p>
+  We’ll be celebrating our wedding in a XIV century castle in the town of Castellar, about 7km from Saluzzo, at the foothills of the Italian Alps. Find more info here: <a href="http://www.castellodicastellar.it/index-english.html">http://www.castellodicastellar.it/index-english.html</a></p>
 
 <h5 id="schedule">Schedule:</h5>
-<p>Provisionary, tbc:</p>
+<p><em>More details to come</em></p>
 
 <ul>
-  <li><strong>Saluzzo, 04:30 pm:</strong> mini-bus leaves from Saluzzo to Castellar</li>
-  <li><strong>Castellar, 05:00 pm:</strong> wedding ceremony</li>
-  <li><strong>06:00 pm:</strong> aperitivo- style reception</li>
-  <li><strong>08:00 pm:</strong> seated dinner</li>
-  <li><strong>10:00 pm:</strong> cut of the cake</li>
+  <li>Transportation from Saluzzo to the venue in Castellar provided</li>
+  <li>Wedding ceremony</li>
+  <li>Aperitivo- style reception (delicious finger food!)</li>
+  <li>Seated dinner (more delicious food!)</li>
 </ul>
 
 
@@ -141,15 +125,15 @@ We’ll be celebrating our wedding in a XIV century castle in the town of Castel
 <div class="half">
 
 <h4 id="flying">Flying</h4>
-<p>If you are flying internationally, the easiest and fastest option is to fly into Turin (Torino Caselle Airport, TRN).
-There are no direct flights from the US to Turin, so you will have to stop over in a bigger hub somewhere in Europe.
-Torino Caselle airport: http://www.aeroportoditorino.it/en/hp_en.html </p>
 
-<p>Alternatively, you could:</p>
+<h5 id="turin">Turin</h5>
+<p>If you are flying internationally, the easiest and fastest option is to fly into Turin (<a href="http://www.aeroportoditorino.it/en/hp_en.html">Torino Caselle Airport, TRN</a>).  </p>
+
+<h5 id="alternatives">Alternatives</h5>
 
 <ul>
   <li>fly into Nice, France, which is a 2.5 hours drive</li>
-  <li>fly into Milan, Italy (MXP), take a coach to Turin, take a train to Savigliano (twon near Saluzzo). More details to come for this option.</li>
+  <li>fly into Milan, Italy (MXP) then rent a car, take a taxi or use public transportation </li>
 </ul>
 
 
@@ -162,19 +146,24 @@ Torino Caselle airport: http://www.aeroportoditorino.it/en/hp_en.html </p>
 
 <ol>
   <li>please let us know your flights details and we might be able to come and pick you up or organize a mini van with a driver </li>
-  <li>rent a car at the Torino Caselle airport and drive to Saluzzo.<br />
-Car rentals at <a href="http://www.aeroportoditorino.it/en/passeggeri_en/trasporti_en/autonoleggi_en.html">Torino airport</a><br />
-<a href="https://www.google.com/maps/dir/Piazza+Giuseppe+Garibaldi,+Saluzzo+CN,+Italy/Turin+Airport,+Strada+Aeroporto,+12,+10072+Caselle+Torinese+TO,+Italy/@44.9203141,7.2903238,10z/data=!3m1!4b1!4m13!4m12!1m5!1m1!1s0x12cd491cc12e01b5:0x63a17941074b0639!2m2!1d7.4934804!2d44.6453574!1m5!1m1!1s0x478865fb0a86beef:0xe001cfd597796324!2m2!1d7.647867!2d45.196536">Driving directions from Turin airport to Saluzzo</a></li>
-  <li>take a taxi from the airport to Saluzzo (around €100 one way).   </li>
+  <li>rent a car at the Torino Caselle airport. For car rentals check <a href="http://www.aeroportoditorino.it/en/passeggeri_en/trasporti_en/autonoleggi_en.html">here</a><br />
+Driving directions from Turin airport to Saluzzo: <a href="https://www.google.com/maps/dir/Piazza+Giuseppe+Garibaldi,+Saluzzo+CN,+Italy/Turin+Airport,+Strada+Aeroporto,+12,+10072+Caselle+Torinese+TO,+Italy/@44.9203141,7.2903238,10z/data=!3m1!4b1!4m13!4m12!1m5!1m1!1s0x12cd491cc12e01b5:0x63a17941074b0639!2m2!1d7.4934804!2d44.6453574!1m5!1m1!1s0x478865fb0a86beef:0xe001cfd597796324!2m2!1d7.647867!2d45.196536">www.google.com/maps</a></li>
 </ol>
 
+<h5 id="from-milano-malpensa-airport">From Milano Malpensa airport</h5>
+<p>Rent a car at Malpensa airport. For car rentals check <a href="http://www.aeroportoditorino.it/en/passeggeri_en/trasporti_en/autonoleggi_en.html">here</a><br />
+Driving directions from Turin airport to <a href="https://www.google.com/maps/dir/Aeroporto+di+Milano-Malpensa,+21010+Ferno+VA,+Italia/Saluzzo+CN,+Italia/@45.1326325,7.5701243,9z/data=!3m1!4b1!4m13!4m12!1m5!1m1!1s0x478661757c84a7b7:0xa3f10a57a0c77efe!2m2!1d8.725531!2d45.630062!1m5!1m1!1s0x12cd491cbe446e01:0xe8a54a78177829da!2m2!1d7.4927355!2d44.6445404?hl=it">Saluzzo: www.google.com/maps</a>  </p>
+
 
 </div>
 </div>
 
-<div class="sub_section" id="taxi">
-<h4 id="suggested-taxi-services">Suggested taxi services:</h4>
+<div class="sub_section" id="taxi_sub_section">
 
+<h4 id="taxi">Taxi</h4>
+
+<p>It will cost you around €100 one way from Turin and around €260 from Milano Malpensa.
+  You can either take one of the taxis at the airport or get in touch ahead of time with one of the taxi services from Saluzzo: </p>
 
 <div class="half info">
 
@@ -185,7 +174,8 @@ Car rentals at <a href="http://www.aeroportoditorino.it/en/passeggeri_en/traspor
   <li><strong>Web:</strong> <a href="http://www.erremmeservice.it">http://www.erremmeservice.it</a>  </li>
 </ul>
 
-</div><div class="half info">
+</div>
+<div class="half info">
 
 <h5 id="taxi-saluzzo">Taxi Saluzzo</h5>
 <ul>
@@ -196,19 +186,58 @@ Car rentals at <a href="http://www.aeroportoditorino.it/en/passeggeri_en/traspor
 </ul>
 
 </div>
+
+
 </div>
 
-<h4 id="from-geneva">From Geneva</h4>
-<p>Our suggested itinerary is to go go through the Mont blanc tunnel. In general, it will take you around 4 hours. More prcise details to come.</p>
+<div class="sub_section">
 
+<h4 id="public-transportation">Public Transportation</h4>
+
+<div class="half">
+
+<h5 id="from-turin-airport">From Turin airport</h5>
+<ul>
+  <li>take the Sadem bus service to Torino Porta Nuova train station.</li>
+  <li>take a train to Savigliano. Savigliano is 20 minutes away from Saluzzo by car and we could easily arrange to come and pick you up. </li>
+  <li>You can book all your train tickets from : <a href="www.trenitalia.com">www.trenitalia.com</a></li>
+</ul>
+
+
+</div>
+<div class="half">
+
+<h5 id="from-milano-malpensa">From Milano Malpensa</h5>
+
+<ul>
+  <li>take the Malpensa Shuttle to Milano Centrale train station.</li>
+  <li>take a train to Torino Porta Nuova. </li>
+  <li>take a train to Savigliano. Savigliano is 20 minutes away from Saluzzo by car and we could easily arrange to come and pick you up. </li>
+  <li>You can book all your train tickets from: <a href="www.trenitalia.com">www.trenitalia.com</a></li>
+</ul>
+
+
+</div>
+
+
+</div>
 
   </section>
 
+</div>
+
+<div id="travel_group" class="parallax__group">
+  <div id="travel_base" class="parallax__layer paralax__layer--base"></div>
+  <div id="travel_back" class="parallax__layer parallax__layer--back"></div>
+</div>
+
+<div class="anchor" id="accomodation"></div>
+<div class="white" id="bottom_white">
   <section id="accomodation_section">
   
   <div>
 <div class="text_line left"></div>
-<h3 id="accomodation">Accomodation</h3>
+<h3 id="accommodation">Accommodation</h3>
 
 <div class="text_line right"></div>
 </div>
@@ -220,7 +249,7 @@ You just need to choose one and get in touch with the staff so that they can ass
 
 <h4 id="hotel-griselda">Hotel Griselda</h4>
 
-<p>This a standard family-run hotel,  just a 5-minute walk from the center of town where all the shops, restaurants and main landmarks are. It’s the ideal choice if you are not planning to rent a car, because you can easily get around on foot.</p>
+<p>This a standard family-run hotel,  just a 5-minute walk from the center of town where all the shops, restaurants and main landmarks are. It’s the ideal choice if you are not planning to rent a car, because you can easily get around Saluzzo on foot.</p>
 
 <h5 id="info">Info</h5>
 <ul>
@@ -236,7 +265,7 @@ You just need to choose one and get in touch with the staff so that they can ass
 <div class="half info">
 
 <h4 id="hotel-antico-podere-propano">Hotel Antico Podere Propano</h4>
-<p>This beautiful country hotel is a little oasis of peace and nature, 10 minutes by car Saluzzo’s downtown. It’s the ideal choice if you are looking for a country setting as it’s a little oasis of peace and nature right outside Saluzzo. However, you might need to have a car to reach Saluzzo’s city center.</p>
+<p>This a standard family-run hotel,  just a 5-minute walk from the center of town where all the shops, restaurants and main landmarks are. It’s the ideal choice if you are not planning to rent a car, because you can easily get around on foot.</p>
 
 <h5 id="info">Info</h5>
 <ul>
@@ -253,19 +282,7 @@ You just need to choose one and get in touch with the staff so that they can ass
 
   </section>
 
-  <div id="map">
-    <script>
-      L.mapbox.accessToken = 'pk.eyJ1Ijoic2VlcGVsIiwiYSI6ImZtMnhmb00ifQ.-s0bpFVh6kO66jtyfeVMbw';
-      // Create a map in the div #map
-      var map = L.mapbox.map('map', 'seepel.kj0g5ke3');
-
-      // disable drag and zoom handlers
-      map.scrollWheelZoom.disable();
-      // disable tap handler, if present.
-      if (map.tap) map.tap.disable();
-    </script>
-  </div>
-
+  <div class="anchor" id="tour"></div>
   <section id="todo_section">
   
   <div>
@@ -274,7 +291,9 @@ You just need to choose one and get in touch with the staff so that they can ass
 
 <div class="text_line right"></div>
 </div>
-<p>June is a great time to come visit Italy. The weather is nice, yet not too hot (around 68-80 F) and big cities are not excessively crowded with tourists (yet!). Here are a few ideas and useful info if you are planning on staying in ITaly for a few days. If need any tips or suggestion, please do not hesitate to contact Chiara at chiarafornasero@yahoo.com</p>
+<p>2015 is a great year to visit Italy, since many big cities are hosting important events like the Expo 2015 in Milan and the <a href="http://www.sindone.org/the_holy_shroud__english_/online_reservations_and_call_/00024633_Reservation.html">Holy Shroud Exposition</a> in Turin. In June the weather is nice, yet not too hot (around 68-80 F) and big cities are not excessively crowded with tourists (yet!).</p>
+
+<p>We will post here are a few ideas and useful info if you are planning on staying in the Saluzzo area for a few days. If need any info or suggested itineraries, please do not hesitate to contact Chiara at chiarafornasero@yahoo.com</p>
 
 <h4 id="saluzzo">Saluzzo</h4>
 <p>Chiara’s hometown is an ancient medieval and Renaissance town in the north west of Italy, int he region of Piedmont.This is article has a great summary of what make Saluzzo special and a few useful tips for visitors: <a href="http://www.miomyitaly.com/saluzzo.html">http://www.miomyitaly.com/saluzzo.html</a></p>
@@ -289,54 +308,84 @@ We’ll keep you posted!</p>
 <p><a href="http://www.italythisway.com/places/saluzzo.php">http://www.italythisway.com/places/saluzzo.php</a></p>
 
 <h5 id="where-to-eat">Where to eat</h5>
+
+<div class="info">
+
 <ul>
-  <li><strong>Best pizza:</strong> Teatro del Gusto, Via Palazzo Di Citta’ 28, Saluzzo. Tel: + 390175.063202<br />
-  Pizzeria Primavera, via Savigliano 21, Saluzzo, Tel: +39 0175 41378</li>
-  <li><strong>Cheap and delicious:</strong> Appaloosa, Via Paesana, 2, Sanfront. Tel: +39 0175-986017<br />
-  Pizzeria Primavera, via Savigliano 21, Saluzzo, Tel: +39 0175 41378</li>
-  <li><strong>Faaaancy:</strong> La Gargotta del Pellico, Piazzetta dei Mondagli, 5, Saluzzo. Tel.; +39 (0) 17546833 </li>
-  <li><strong>Best gelato:</strong> Gelateria La Romana, Corso Piemonte 7, 12037 Saluzzo</li>
+  <li><strong>Best pizza:</strong> <a href="http://www.tripadvisor.it/ShowUserReviews-g194893-d3398888-r233673374-Teatro_Del_Gusto-Saluzzo_Province_of_Cuneo_Piedmont.html">Teatro del Gusto</a>, Via Palazzo Di Citta’ 28, Saluzzo. Tel: + 390175.063202<br />
+  <a href="https://www.facebook.com/pages/Pizzeria-trattoria-Primavera/136996156433557?sk=info&amp;tab=overview">Pizzeria Primavera</a>, via Savigliano 21, Saluzzo, Tel: +39 0175 41378</li>
+  <li><strong>Cheap and delicious:</strong> <a href="http://www.ristorante-appaloosa.it/appaloosa-menu-e.htm">Appaloosa</a>, Via Paesana, 2, Sanfront. Tel: +39 0175-986017<br />
+  <a href="https://www.facebook.com/pages/Pizzeria-trattoria-Primavera/136996156433557?sk=info&amp;tab=overview">Pizzeria Primavera</a>, via Savigliano 21, Saluzzo, Tel: +39 0175 41378</li>
+  <li><strong>Faaaancy:</strong> <a href="http://www.tripadvisor.it/Restaurant_Review-g194893-d2248462-Reviews-La_Gargotta_del_Pellico-Saluzzo_Province_of_Cuneo_Piedmont.html">La Gargotta del Pellico</a>, Piazzetta dei Mondagli, 5, Saluzzo. Tel.; +39 (0) 17546833 </li>
+  <li><strong>Best gelato:</strong> <a href="http://www.gelateriaromana.com/23-ice-cream-shop-saluzzo.php">Gelateria La Romana</a>, Corso Piemonte 7, 12037 Saluzzo</li>
 </ul>
+
+
+</div>
 
 <h5 id="where-to-have-a-drink">Where to have a drink</h5>
 <p>In Italy, people go out for drinks before dinner, and from 06:30 -9:00 most cocktails bars offer Aperitivo: you pay a little more for your drink but you can have access to the all-you-eat buffet of finger food from the counter.<br />
 The most typical Aperitivo drink is Spritz: Aperol liquer, Prosecco white wine and seltzer water. </p>
 
+<div class="info">
+
 <ul>
-  <li><strong>Great crafted beers:</strong> Baladin Café and Birrificio della Granda</li>
-  <li><strong>Cocktails and people watching:</strong> Mixology, </li>
+  <li><strong>Great crafted beers:</strong> <a href="http://www.baladin.it/en/our-places/baladin-cafe-saluzzo">Baladin Café</a> and <a href="http://www.tripadvisor.com/Restaurant_Review-g194893-d3493819-Reviews-Birrificio_della_Granda-Saluzzo_Province_of_Cuneo_Piedmont.html">Birrificio della Granda</a></li>
+  <li><strong>Cocktails and people watching:</strong> <a href="https://www.facebook.com/pages/Mixology-Everytime-Bar/187272094693182">Mixology</a>, Bacco Caffé</li>
 </ul>
+
+
+</div>
 
 <h5 id="italian-coffee-anyone">Italian Coffee anyone?</h5>
-<p>Note that in Italy filter coffee is not common and the closest to American style coffee you can get is an Americano. However you can enjoy delicious espressos, cappuccino and macchiatos!</p>
-
-<ul>
-  <li><strong>Yummy pastries:</strong>  Pasticceria Almonte, 21, Corso Italia - 12037 Saluzzo  </li>
-  <li><strong>Tea and relax:</strong> </li>
-</ul>
+<p>Note that in Italy filter coffee is not common and the closest to American style coffee you can get is an Americano. However you can enjoy delicious espressos, cappuccino and macchiatos!<br />
+<a href="http://www.saluzzoturistica.it/ospitalita_scheda.php?id=2127">Bar Beppe</a>, 25, Corso Italia, Saluzzo<br />
+<strong>Yummy pastries:</strong>  Pasticceria Almonte, 21, Corso Italia - 12037 Saluzzo  </p>
 
 <h5 id="things-to-do">THINGS TO DO</h5>
 
 <h6 id="saluzzo-tourist-info-office-tourist-office-iat-saluzzo">Saluzzo tourist info office: Tourist Office IAT Saluzzo</h6>
+<div class="info">
+
 <ul>
-  <li>Piazza Risorgimento, 1 - 12037 Saluzzo (CN) </li>
-  <li>Tel: 46 710 0175 - Fax: 0175 46718 </li>
-  <li>Email: <a href="&#109;&#097;&#105;&#108;&#116;&#111;:&#105;&#110;&#102;&#111;&#064;&#115;&#097;&#108;&#117;&#122;&#122;&#111;&#116;&#117;&#114;&#105;&#115;&#116;&#105;&#099;&#097;&#046;&#105;&#116;">mailto:info@saluzzoturistica.it</a></li>
-  <li><a href="Saluzzo Tourism">http://www.saluzzoturistica.it/itinerari_scheda.php?id=425</a></li>
+  <li><strong>Address:</strong> Piazza Risorgimento, 1 - 12037 Saluzzo (CN) </li>
+  <li><strong>Tel:</strong> 46 710 0175 - Fax: 0175 46718 </li>
+  <li><strong>Email:</strong> <a href="info@saluzzoturistica.it">malto:info@saluzzoturistica.it</a></li>
+  <li><strong>Web:</strong> <a href="http://www.saluzzoturistica.it/itinerari_scheda.php?id=425">Saluzzo Tourism</a></li>
 </ul>
 
-<h6 id="other-links">Other links</h6>
-<p><a href="Lonely Planet">http://www.lonelyplanet.com/italy/liguria-piedmont-and-valle-daosta/saluzzo/things-to-do</a>
-<a href="Piemonteitalia">http://www.piemonteitalia.eu/en/comuni/dettaglio/21/cuneo/saluzzo.html</a></p>
-
-
-  </section>
 
 </div>
 
-<div id="footer_group" class="parallax__group">
-  <div id="footer_background" class="parallax__layer parallax__layer--fore">
+<h6 id="other-links">Other links</h6>
+<ul>
+  <li><a href="http://www.lonelyplanet.com/italy/liguria-piedmont-and-valle-daosta/saluzzo/things-to-do">Lonely Planet</a></li>
+  <li><a href="http://www.piemonteitalia.eu/en/comuni/dettaglio/21/cuneo/saluzzo.html">Piemonteitalia</a></li>
+</ul>
+
+  </section>
+
+  <div id="map">
+    <script>
+      L.mapbox.accessToken = 'pk.eyJ1Ijoic2VlcGVsIiwiYSI6ImZtMnhmb00ifQ.-s0bpFVh6kO66jtyfeVMbw';
+      // Create a map in the div #map
+      var map = L.mapbox.map('map', 'seepel.kj0g5ke3');
+
+      // disable drag and zoom handlers
+      map.scrollWheelZoom.disable();
+      // disable tap handler, if present.
+      if (map.tap) map.tap.disable();
+    </script>
   </div>
+</div>
+
+<div class="anchor" id="rsvp"></div>
+<section id="rsvp_section">
+</section>
+
+<div id="footer_group" class="parallax__group">
+  <div id="footer_color" class="parallax__layer parallax__layer--base"></div>
+  <div id="footer_background" class="parallax__layer parallax__layer--fore"> </div>
 </div>
 
 

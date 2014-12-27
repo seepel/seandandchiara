@@ -3,10 +3,12 @@
 {{ '### MAKE IT A TRIP!' | markdownify }}
 <div class="text_line right"></div>
 </div>
-  June is a great time to come visit Italy. The weather is nice, yet not too hot (around 68-80 F) and big cities are not excessively crowded with tourists (yet!). Here are a few ideas and useful info if you are planning on staying in ITaly for a few days. If need any tips or suggestion, please do not hesitate to contact Chiara at chiarafornasero@yahoo.com
+  2015 is a great year to visit Italy, since many big cities are hosting important events like the Expo 2015 in Milan and the [Holy Shroud Exposition](http://www.sindone.org/the_holy_shroud__english_/online_reservations_and_call_/00024633_Reservation.html) in Turin. In June the weather is nice, yet not too hot (around 68-80 F) and big cities are not excessively crowded with tourists (yet!).
+
+  We will post here are a few ideas and useful info if you are planning on staying in the Saluzzo area for a few days. If need any info or suggested itineraries, please do not hesitate to contact Chiara at chiarafornasero@yahoo.com
 
 #### Saluzzo
-Chiara’s hometown is an ancient medieval and Renaissance town in the north west of Italy, int he region of Piedmont.This is article has a great summary of what make Saluzzo special and a few useful tips for visitors: [http://www.miomyitaly.com/saluzzo.html](http://www.miomyitaly.com/saluzzo.html)
+  Chiara’s hometown is an ancient medieval and Renaissance town in the north west of Italy, int he region of Piedmont.This is article has a great summary of what make Saluzzo special and a few useful tips for visitors: [http://www.miomyitaly.com/saluzzo.html](http://www.miomyitaly.com/saluzzo.html)
 
 ##### June 25-30
 
@@ -19,36 +21,35 @@ We’ll keep you posted!
 [http://www.italythisway.com/places/saluzzo.php](http://www.italythisway.com/places/saluzzo.php)
 
 ##### Where to eat
- * **Best pizza:** Teatro del Gusto, Via Palazzo Di Citta' 28, Saluzzo. Tel: + 390175.063202  
-  Pizzeria Primavera, via Savigliano 21, Saluzzo, Tel: +39 0175 41378
- * **Cheap and delicious:** Appaloosa, Via Paesana, 2, Sanfront. Tel: +39 0175-986017  
-  Pizzeria Primavera, via Savigliano 21, Saluzzo, Tel: +39 0175 41378
- * **Faaaancy:** La Gargotta del Pellico, Piazzetta dei Mondagli, 5, Saluzzo. Tel.; +39 (0) 17546833 
- * **Best gelato:** Gelateria La Romana, Corso Piemonte 7, 12037 Saluzzo
 
+<div class="info">
+{% capture eat_include %}{% include eat_en.md %}{% endcapture %}
+{{ eat_include | markdownify }}
+</div>
 
 ##### Where to have a drink
   In Italy, people go out for drinks before dinner, and from 06:30 -9:00 most cocktails bars offer Aperitivo: you pay a little more for your drink but you can have access to the all-you-eat buffet of finger food from the counter.  
 The most typical Aperitivo drink is Spritz: Aperol liquer, Prosecco white wine and seltzer water. 
 
- * **Great crafted beers:** Baladin Café and Birrificio della Granda
- * **Cocktails and people watching:** Mixology, 
+<div class="info">
+{% capture drink_include %}{% include drink_en.md %}{% endcapture %}
+{{ drink_include | markdownify }}
+</div>
+
 
 ##### Italian Coffee anyone?
- Note that in Italy filter coffee is not common and the closest to American style coffee you can get is an Americano. However you can enjoy delicious espressos, cappuccino and macchiatos!
-
- * **Yummy pastries:**  Pasticceria Almonte, 21, Corso Italia - 12037 Saluzzo  
- * **Tea and relax:** 
+ Note that in Italy filter coffee is not common and the closest to American style coffee you can get is an Americano. However you can enjoy delicious espressos, cappuccino and macchiatos!  
+[Bar Beppe](http://www.saluzzoturistica.it/ospitalita_scheda.php?id=2127), 25, Corso Italia, Saluzzo  
+**Yummy pastries:**  Pasticceria Almonte, 21, Corso Italia - 12037 Saluzzo  
 
 ##### THINGS TO DO
 
 ###### Saluzzo tourist info office: Tourist Office IAT Saluzzo
- * Piazza Risorgimento, 1 - 12037 Saluzzo (CN) 
- * Tel: 46 710 0175 - Fax: 0175 46718 
- * Email: [mailto:info@saluzzoturistica.it](mailto:info@saluzzoturistica.it)
- * [http://www.saluzzoturistica.it/itinerari_scheda.php?id=425](Saluzzo Tourism)
+<div class="info">
+{% capture tourist_include %}{% include tourist_en.md %}{% endcapture %}
+{{ tourist_include | markdownify }}
+</div>
 
 ###### Other links
-[http://www.lonelyplanet.com/italy/liguria-piedmont-and-valle-daosta/saluzzo/things-to-do](Lonely Planet)
-[http://www.piemonteitalia.eu/en/comuni/dettaglio/21/cuneo/saluzzo.html](Piemonteitalia)
-
+ * [Lonely Planet](http://www.lonelyplanet.com/italy/liguria-piedmont-and-valle-daosta/saluzzo/things-to-do)
+ * [Piemonteitalia](http://www.piemonteitalia.eu/en/comuni/dettaglio/21/cuneo/saluzzo.html)
