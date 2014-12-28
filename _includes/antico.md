@@ -6,5 +6,5 @@
   * **Address:** Via Torino, 75 - 12037 Saluzzo (CN)
   * **Tel:** + 39 0175 248087
   * **Email:** [mailto:info@anticopoderepropano.com](info@anticopoderepropano.com)
-  * **Web: [http://www.anticopoderepropano.com/index.php?id=3912&L=1](http://www.anticopoderepropano.com/index.php?id=3912&L=1)
+  * **Web:** [http://www.anticopoderepropano.com/index.php?id=3912&L=1](http://www.anticopoderepropano.com/index.php?id=3912&L=1)
 

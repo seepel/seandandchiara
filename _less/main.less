@@ -7,6 +7,7 @@
 @white: rgb(239, 232, 213);
 @beige: rgb(224, 190, 164);
 @red: rgb(191, 68, 77);
+@link-color: rgb(90, 90, 90);
 
 @footer-color: @green;
 @footer-highlight: white;
@@ -17,7 +18,6 @@ html {
   body {
     margin: 0;
     font-family: Muli;
-
     header {
       nav {
         height: @top-height;
@@ -34,6 +34,21 @@ html {
       background-color: white;
       z-index: 100;
       top: 0;
+      a {
+        text-decoration: none;
+        font-size: 150%;
+        margin-left: 20px;
+        margin-right: 20px;
+      }
+      a:link {
+        color: @link-color;
+      }
+      a:visited {
+        color: @link-color;
+      }
+      a:hover {
+        color: black;
+      }
     }
 
     .green {
@@ -48,7 +63,43 @@ html {
       background-color: @red;
     }
 
+    .title {
+      height: 375px;
+      max-height: 40vh;
+    }
+
+    #title_background {
+      position: fixed;
+      top: @top-height;
+      left: 0;
+      right: 0;
+      text-align: center;
+      width: 100%;
+      background: url('/img/cs-0590.jpg'); 
+      background-position: 53% 100%; 
+      background-size: cover;
+      z-index: -1;
+    }
+
+    .footer {
+      height: 375px;
+      max-height: 40vh;
+    }
+
+    #footer_background {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      width: 100%;
+      background:url('/img/cs-0644.jpg'); 
+      background-position: 53% 100%;
+      background-size: cover;
+      z-index: -2;
+    }
+
     #content {
+      -webkit-overflow-scrolling: touch;
       width: 100%;
       position: absolute;
       .anchor {
@@ -132,50 +183,48 @@ html {
       #header_space {
         height: @top-height;
       }
-      
-      #title_group {
-        height: 375px;
-        z-index: -1;
-        #title_background {
-          text-align: center;
-          width: 100%;
-          height: 100%;
-          background: url('/img/cs-0590.jpg'); 
-          background-position: 53% 52%;
-          top: -500px;
-          z-index: -1;
-        }
-      }
 
       #title {
           text-align: center;
           width: 100%;
           height: 100%;
           z-index: -1;
+          #sean-image {
+            display: inline-block;
+            width: 133px;
+          }
+          #chiara-image {
+            display: inline-block;
+            width: 133px;
+          }
           h1 {
             font-size: 300%;
+            margin: 0;
              #sean {
                display: inline-block;
                position: relative;
-               left: 20px;
              }
              #and {
                display: inline-block;
                position: relative;
-               left: 0;
-               top: 20px;
-
              }
              #chiara {
                display: inline-block;
                position: relative;
-               left: -30px;
-               top: 40px;
              }
           }
           h2 {
+            margin-top: 0;
+            margin-bottom: 0;
             font-size: 300%;
+            color: gray;
           }
+        }
+
+        .top_white {
+          border-top-style: solid;
+          border-top-color: gray;
+          border-top-width: 1px;
         }
 
       #welcome_group {
@@ -188,6 +237,7 @@ html {
 
       #timer_group {
         height: 500px;
+        z-index: -1;
       }
 
       #timer_layer_back {
@@ -277,11 +327,12 @@ html {
       }
 
       #travel_group {
+        z-index: -1;
         height: 500px;
         #travel_back {
           background: url("/img/travel.jpg");
           background-size: cover;
-          background-position: 50%;
+          background-position: 10%;
           height: 100vh;
           z-index: 3;
         }
@@ -340,6 +391,7 @@ html {
         }
 
         .white {
+          position: relative;
           input {
             background-color: white;
             border-color: rgb(120, 120, 120);
@@ -383,27 +435,17 @@ html {
         }
       }
 
-      #footer_group {
-        height: 375px;
-        #footer_background {
-          -webkit-transform: translateZ(90px) translateY(-145px) scale(0.73);
-          width: 100%;
-          height: 100%;
-          background:url('/img/cs-0644.jpg'); 
-          background-position: 53% 60%;
-          background-size: 100%;
-        }
-      }
-
-
       .sub_section {
         margin-bottom: 60px;
       }
 
       .white {
+        z-index: 4;
         background-color: white;
         padding-top: 25px;
         padding-bottom: 25px;
+        -webkit-transform-style: preserve-3d;
+        transform-stlye: preserve-3d;
       }
 
       #bottom_white {
@@ -413,6 +455,7 @@ html {
 
       #map {
         height: 500px;
+        max-height: 40%vh;
         position: relative;
         margin-top: 50px;
         margin-bottom: 0;
@@ -426,6 +469,9 @@ html {
       }
 
       section {
+        -webkit-transform: translateZ(0);
+        transform: translateZ(0);
+        z-index: 4;
         position: relative;
         background-color: white;
         max-width: 1024px;

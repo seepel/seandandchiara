@@ -10,7 +10,7 @@
   right: 0;
   bottom: 0;
   overflow-x: hidden;
-  overflow-y: auto;
+  overflow-y: scroll;
   -webkit-perspective: 300px;
   perspective: 300px;
 }
@@ -94,6 +94,21 @@ html body header nav {
   height: 75px;
   padding-top: 25px;
 }
+html body header a {
+  text-decoration: none;
+  font-size: 150%;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+html body header a:link {
+  color: #5a5a5a;
+}
+html body header a:visited {
+  color: #5a5a5a;
+}
+html body header a:hover {
+  color: black;
+}
 html body .green {
   background-color: #41884a;
 }
@@ -103,7 +118,39 @@ html body .white {
 html body .red {
   background-color: #bf444d;
 }
+html body .title {
+  height: 375px;
+  max-height: 40vh;
+}
+html body #title_background {
+  position: fixed;
+  top: 75px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  width: 100%;
+  background: url('/img/cs-0590.jpg');
+  background-position: 53% 100%;
+  background-size: cover;
+  z-index: -1;
+}
+html body .footer {
+  height: 375px;
+  max-height: 40vh;
+}
+html body #footer_background {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  background: url('/img/cs-0644.jpg');
+  background-position: 53% 100%;
+  background-size: cover;
+  z-index: -2;
+}
 html body #content {
+  -webkit-overflow-scrolling: touch;
   width: 100%;
   position: absolute;
 }
@@ -177,47 +224,46 @@ html body #content ol {
 html body #content #header_space {
   height: 75px;
 }
-html body #content #title_group {
-  height: 375px;
-  z-index: -1;
-}
-html body #content #title_group #title_background {
-  text-align: center;
-  width: 100%;
-  height: 100%;
-  background: url('/img/cs-0590.jpg');
-  background-position: 53% 52%;
-  top: -500px;
-  z-index: -1;
-}
 html body #content #title {
   text-align: center;
   width: 100%;
   height: 100%;
   z-index: -1;
 }
+html body #content #title #sean-image {
+  display: inline-block;
+  width: 133px;
+}
+html body #content #title #chiara-image {
+  display: inline-block;
+  width: 133px;
+}
 html body #content #title h1 {
   font-size: 300%;
+  margin: 0;
 }
 html body #content #title h1 #sean {
   display: inline-block;
   position: relative;
-  left: 20px;
 }
 html body #content #title h1 #and {
   display: inline-block;
   position: relative;
-  left: 0;
-  top: 20px;
 }
 html body #content #title h1 #chiara {
   display: inline-block;
   position: relative;
-  left: -30px;
-  top: 40px;
 }
 html body #content #title h2 {
+  margin-top: 0;
+  margin-bottom: 0;
   font-size: 300%;
+  color: gray;
+}
+html body #content .top_white {
+  border-top-style: solid;
+  border-top-color: gray;
+  border-top-width: 1px;
 }
 html body #content #welcome_group {
   min-height: 500px;
@@ -228,6 +274,7 @@ html body #content #welcome_group section {
 }
 html body #content #timer_group {
   height: 500px;
+  z-index: -1;
 }
 html body #content #timer_layer_back {
   background: url("/img/castello.jpg");
@@ -301,12 +348,13 @@ html body #content #travel_section ul {
   margin-top: 0;
 }
 html body #content #travel_group {
+  z-index: -1;
   height: 500px;
 }
 html body #content #travel_group #travel_back {
   background: url("/img/travel.jpg");
   background-size: cover;
-  background-position: 50%;
+  background-position: 10%;
   height: 100vh;
   z-index: 3;
 }
@@ -357,6 +405,7 @@ html body #content #rsvp_section .green ::-webkit-input-placeholder {
   color: #87af8c;
 }
 html body #content #rsvp_section .white {
+  position: relative;
   padding-top: 40px;
   padding-bottom: 40px;
 }
@@ -394,24 +443,16 @@ html body #content #rsvp_section select {
   padding: 10px;
   background-color: #bf444d;
 }
-html body #content #footer_group {
-  height: 375px;
-}
-html body #content #footer_group #footer_background {
-  -webkit-transform: translateZ(90px) translateY(-145px) scale(0.73);
-  width: 100%;
-  height: 100%;
-  background: url('/img/cs-0644.jpg');
-  background-position: 53% 60%;
-  background-size: 100%;
-}
 html body #content .sub_section {
   margin-bottom: 60px;
 }
 html body #content .white {
+  z-index: 4;
   background-color: white;
   padding-top: 25px;
   padding-bottom: 25px;
+  -webkit-transform-style: preserve-3d;
+  transform-stlye: preserve-3d;
 }
 html body #content #bottom_white {
   margin-bottom: 0;
@@ -419,6 +460,7 @@ html body #content #bottom_white {
 }
 html body #content #map {
   height: 500px;
+  max-height: 40%vh;
   position: relative;
   margin-top: 50px;
   margin-bottom: 0;
@@ -431,6 +473,9 @@ html body #content #map {
   padding-bottom: 0;
 }
 html body #content section {
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  z-index: 4;
   position: relative;
   background-color: white;
   max-width: 1024px;
