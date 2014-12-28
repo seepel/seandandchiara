@@ -1,5 +1,4 @@
 @import "variables.less";
-@import "parallax.less";
 
 @green: rgb(65, 136, 74);
 @dark-green: rgb(51, 101, 57);
@@ -13,6 +12,15 @@
 @footer-highlight: white;
 
 @top-height: 75px;
+
+.full-size {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
 
 html {
   body {
@@ -99,7 +107,6 @@ html {
     }
 
     #content {
-      -webkit-overflow-scrolling: touch;
       width: 100%;
       position: absolute;
       .anchor {
@@ -236,15 +243,15 @@ html {
       }
 
       #timer_group {
+        position: relative;
         height: 500px;
-        z-index: -1;
+        z-index: 2;
       }
 
       #timer_layer_back {
         background: url("/img/castello.jpg");
         background-size: cover;
         background-position: 50%;
-        height: 100vh;
         z-index: 2;
       }
 
@@ -252,6 +259,7 @@ html {
         color: white;
         font-size: 300%;
         position: relative;
+        z-index: 5;
         top: 50%;
         -webkit-transform: translateY(-50%);
         transform: translateY(-50%);
@@ -327,16 +335,18 @@ html {
       }
 
       #travel_group {
-        z-index: -1;
+        position: relative;
+        z-index: 0;
         height: 500px;
         #travel_back {
           background: url("/img/travel.jpg");
           background-size: cover;
           background-position: 10%;
-          height: 100vh;
-          z-index: 3;
+          height: 100%;
+          z-index: 4;
         }
         #travel_base {
+          z-index: 5;
           background-color: rgba(0,0,0,0.6);
         }
       }
@@ -444,8 +454,6 @@ html {
         background-color: white;
         padding-top: 25px;
         padding-bottom: 25px;
-        -webkit-transform-style: preserve-3d;
-        transform-stlye: preserve-3d;
       }
 
       #bottom_white {
@@ -469,8 +477,6 @@ html {
       }
 
       section {
-        -webkit-transform: translateZ(0);
-        transform: translateZ(0);
         z-index: 4;
         position: relative;
         background-color: white;
