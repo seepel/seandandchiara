@@ -13,12 +13,14 @@
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="/js/jquery.plugin.min.js"></script>
     <script src="/js/jquery.countdown.js"></script>
+    <script src="/js/menu.js"></script>
     <script src="/js/scroll.js"></script>
   </head>
   <body>
-    <header> 
+    <header class="normal"> 
     <nav>
     {% include nav.md %}
+    <a id="mobile_menu" onclick="toggleNav()" href="javascript:void(0);">MENU</a>
     </nav>
     </header>
     <div class="title" id="title_background"> </div>

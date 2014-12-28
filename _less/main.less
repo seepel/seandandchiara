@@ -8,6 +8,8 @@
 @red: rgb(191, 68, 77);
 @link-color: rgb(90, 90, 90);
 
+@collapse-nav: 640px;
+
 @footer-color: @green;
 @footer-highlight: white;
 
@@ -38,6 +40,39 @@ html {
         height: @top-height;
         padding-top: 25px;
       }
+      #mobile_menu {
+        @media (max-width: @collapse-nav) {
+          position: absolute;
+          left: 0;
+          bottom: 0;
+          right: 0;
+          height: calc(@top-height - 25);
+          background-color: white;
+          padding: 0;
+          opacity: 1;
+          -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
+        }
+        @media (min-width: @collapse-nav) {
+          visibility: hidden;
+        }
+      }
+      a {
+        @media (max-width: @collapse-nav) {
+          display: block;
+          padding-top: 5vh;
+          padding-bottom: 5vh;
+          opacity: 0;
+          -webkit-transform: translate3d(0, -50%, 0);
+          transform: translate3d(0, -50%, 0);
+        }
+
+        text-decoration: none;
+        font-size: 150%;
+        margin-left: 20px;
+        margin-right: 20px;
+      }
+      overflow: hidden;
       position: fixed;
       width: 100%;
       height: @top-height;
@@ -49,12 +84,7 @@ html {
       background-color: white;
       z-index: 100;
       top: 0;
-      a {
-        text-decoration: none;
-        font-size: 150%;
-        margin-left: 20px;
-        margin-right: 20px;
-      }
+      
       a:link {
         color: @link-color;
       }
@@ -65,6 +95,11 @@ html {
         color: black;
       }
     }
+    .expanded {
+        position: fixed;
+        width: 100%;
+        height: 100%;
+      }
 
     .green {
       background-color: @green;
@@ -114,6 +149,7 @@ html {
     }
 
     #content {
+      overflow: hidden;
       width: 100%;
       position: absolute;
       .anchor {
@@ -123,7 +159,7 @@ html {
 
       .text_line {
         position: absolute;
-        top: 80px;
+        top: 50%;
         height: 1px;
         background-color: black;
       }
@@ -136,6 +172,10 @@ html {
       .right {
         left: 50%;
         right: 15px;;
+      }
+
+      .heading {
+        position: relative;
       }
      
       h3 {
@@ -151,6 +191,9 @@ html {
         margin-right: auto;
         max-width: 1024px;
         font-size: 300%;
+        @media (max-width: @collapse-nav) {
+          font-size: 200%;
+        }
         z-index: 1;
         text-align: center;
       }
@@ -252,7 +295,12 @@ html {
       #timer_group {
         overflow: hidden;
         position: relative;
-        height: 500px;
+        @media (min-width: 520px) {
+          height: 500px;
+        }
+        @media (max-width: 520px) {
+          min-height: 500px;
+        }
         z-index: 2;
       }
 
@@ -266,11 +314,20 @@ html {
       #timer_layer {
         color: white;
         font-size: 300%;
+        @media (max-width: 760px) {
+          font-size: 200%;
+        }
+        @media (max-width: 640px) {
+          font-size: 300%;
+        }
+
         position: relative;
         z-index: 5;
-        top: 50%;
-        -webkit-transform: translateY(-50%);
-        transform: translateY(-50%);
+        @media (min-width: 520px) {
+          top: 50%;
+          -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+        }
         text-align: center;
         .countdown-section {
           display: inline-block;
@@ -278,18 +335,29 @@ html {
         }
         .countdown-period {
           display: block;
-          width: 222px;
+          @media (min-width: 1024px) {
+            width: 222px;
+          }
+          @media (max-width: 640px) {
+            width: 222px;
+          }
         }
       }
 
       h4 {
         margin: 0;
         font-size: 200%;
+        @media (max-width: @collapse-nav) {
+          font-size: 150%;
+        }
         padding-left: 15px;
       }
 
       h5 {
         font-size: 140%;
+        @media (max-width: @collapse-nav) {
+          font-size: 120%;
+        }
         padding-left: 15px;
       }
 
@@ -305,7 +373,12 @@ html {
       }
 
       #event_section {
+        .heading {
+          margin-top: 1em;
+          margin-bottom: 1em;
+        }
         h3 {
+          margin-top: 5px;
           margin-bottom: 5px;
         }
         h4 {
@@ -314,6 +387,9 @@ html {
         }
         h5 {
           font-size: 200%;
+          @media (max-width: @collapse-nav) {
+            font-size: 150%;
+          }
           margin-bottom: 5px;
         }
         p {
@@ -368,6 +444,9 @@ html {
           margin: 0;
           padding-left: 15px;
           font-size: 125%;
+          @media (max-width: @collapse-nav) {
+            font-size: 110%;
+          }
         }
         p {
           margin-top: 0;
@@ -472,7 +551,7 @@ html {
 
       #map {
         height: 500px;
-        max-height: 40%vh;
+        max-height: 40vh;
         position: relative;
         margin-top: 50px;
         margin-bottom: 0;
@@ -495,10 +574,12 @@ html {
       }
 
       .half {
-        min-width: 375px;
-        display: inline-block;
-        width: 49%;
-        vertical-align: top;
+        @media (min-width: 750px) {
+          min-width: 375px;
+          display: inline-block;
+          width: 49%;
+          vertical-align: top;
+          }
       }
     }
   }

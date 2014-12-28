@@ -4,8 +4,8 @@
 <a href="/en/registry">REGISTRY</a>
 <a href="/en/gallery">GALLERY</a>
 {% else %}
-<a href="#event">EVENTS</a>
-<a href="#travel">TRAVEL</a>
-<a href="#accomodation">ACCOMMODATION</a>
-<a href="#tour">TOUR</a>
+<a id="nav_event" class="nav_link" href="#event">EVENT</a>
+<a id="nav_travel" href="#travel">TRAVEL</a>
+<a id="nav_accommodation" href="#accomodation">ACCOMMODATION</a>
+<a id="nav_tour" href="#tour">TOUR</a>
 {% endif %}

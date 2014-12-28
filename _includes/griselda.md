@@ -6,6 +6,5 @@
   * **Contact person:** Danilo Rinaudo & Nicolò Rinaudo
   * **Address:** Corso XXVII Aprile, 13, Saluzzo (CN) 12037, Italy
   * **Tel:** +39 0175 47484
+  * **Email:** [info@hotelgriselda.it](mailto:info@hotelgriselda.it)
   * **Web:** [http://www.booking.com/hotel/it/griselda.html](http://www.booking.com/hotel/it/griselda.html)
-  * **Email:** ["mailto:info@hotelgriselda.it"](info@hotelgriselda.it)
-

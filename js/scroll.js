@@ -11,16 +11,18 @@ var $footer;
 
 
 $(document).ready(function(){
-  $('a[href^="#"]').on('click',function (e) {
-    e.preventDefault();
-
-    var target = this.hash;
-    $target = $(target);
-
-    var offset = $('#content').scrollTop() + $target.offset().top;
-    $('#content').stop().animate({
-      'scrollTop': offset
-    }, 900, 'swing');
+  $('a[href*=#]:not([href=#])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        collapseNav();
+        $("html, body").animate({
+          scrollTop: target.offset().top
+        }, 1000);
+        return false;
+      }
+    }
   });
   update();
   window.onresize = function(event) {
@@ -36,7 +38,6 @@ function init() {
   titleTrigger = $title.height() + 100;;
   footerTrigger = bodyHeight - windowHeight - $footer.height() - 100;
   if(titleTrigger) {
-    console.log(titleTrigger);
     didInit = true;
   }
 }

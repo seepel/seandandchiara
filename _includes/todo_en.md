@@ -1,9 +1,9 @@
-<div>
+<div class="heading">
 <div class="text_line left"></div>
 {{ '### MAKE IT A TRIP!' | markdownify }}
 <div class="text_line right"></div>
 </div>
-  2015 is a great year to visit Italy, since many big cities are hosting important events like the Expo 2015 in Milan and the [Holy Shroud Exposition](http://www.sindone.org/the_holy_shroud__english_/online_reservations_and_call_/00024633_Reservation.html) in Turin. In June the weather is nice, yet not too hot (around 68-80 F) and big cities are not excessively crowded with tourists (yet!).
+  2015 is a great year to visit Italy, since many big cities are hosting important events like the [Expo 2015](http://www.expo2015.org/en/index.html?packedargs=op=changeLang) in Milan and the [Holy Shroud Exposition](http://www.sindone.org/the_holy_shroud__english_/online_reservations_and_call_/00024633_Reservation.html) in Turin. In June the weather is nice, yet not too hot (around 68-80 F) and big cities are not excessively crowded with tourists (yet!).
 
   We will post here are a few ideas and useful info if you are planning on staying in the Saluzzo area for a few days. If need any info or suggested itineraries, please do not hesitate to contact Chiara at chiarafornasero@yahoo.com
 
@@ -19,6 +19,8 @@ We’ll keep you posted!
 
 ##### What to see
 [http://www.italythisway.com/places/saluzzo.php](http://www.italythisway.com/places/saluzzo.php)
+
+##### What to do
 
 ##### Where to eat
 

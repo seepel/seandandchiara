@@ -1,4 +1,4 @@
-<div>
+<div class="heading">
 <div class="text_line left"></div>
 {{ '### Accommodation' | markdownify }}
 <div class="text_line right"></div>

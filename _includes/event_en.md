@@ -1,6 +1,6 @@
-<div>
+<div class="heading">
 <div class="text_line left"></div>
-{{ '### THE EVENT' | markdownify }}
+{{ '### The Event' | markdownify }}
 <div class="text_line right"></div>
 </div>
 

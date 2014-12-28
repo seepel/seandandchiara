@@ -17,6 +17,7 @@ html body {
   font-family: Muli;
 }
 html body header {
+  overflow: hidden;
   position: fixed;
   width: 100%;
   height: 75px;
@@ -33,11 +34,40 @@ html body header nav {
   height: 75px;
   padding-top: 25px;
 }
+@media (max-width: 640px) {
+  html body header #mobile_menu {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: calc(50px);
+    background-color: white;
+    padding: 0;
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+@media (min-width: 640px) {
+  html body header #mobile_menu {
+    visibility: hidden;
+  }
+}
 html body header a {
   text-decoration: none;
   font-size: 150%;
   margin-left: 20px;
   margin-right: 20px;
+}
+@media (max-width: 640px) {
+  html body header a {
+    display: block;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    opacity: 0;
+    -webkit-transform: translate3d(0, -50%, 0);
+    transform: translate3d(0, -50%, 0);
+  }
 }
 html body header a:link {
   color: #5a5a5a;
@@ -47,6 +77,11 @@ html body header a:visited {
 }
 html body header a:hover {
   color: black;
+}
+html body .expanded {
+  position: fixed;
+  width: 100%;
+  height: 100%;
 }
 html body .green {
   background-color: #41884a;
@@ -89,6 +124,7 @@ html body #footer_background {
   z-index: -2;
 }
 html body #content {
+  overflow: hidden;
   width: 100%;
   position: absolute;
 }
@@ -98,7 +134,7 @@ html body #content .anchor {
 }
 html body #content .text_line {
   position: absolute;
-  top: 80px;
+  top: 50%;
   height: 1px;
   background-color: black;
 }
@@ -109,6 +145,9 @@ html body #content .left {
 html body #content .right {
   left: 50%;
   right: 15px;
+}
+html body #content .heading {
+  position: relative;
 }
 html body #content h3 {
   display: inline-block;
@@ -125,6 +164,11 @@ html body #content h3 {
   font-size: 300%;
   z-index: 1;
   text-align: center;
+}
+@media (max-width: 640px) {
+  html body #content h3 {
+    font-size: 200%;
+  }
 }
 html body #content h4 {
   max-width: 1024px;
@@ -213,8 +257,17 @@ html body #content #welcome_group section {
 html body #content #timer_group {
   overflow: hidden;
   position: relative;
-  height: 500px;
   z-index: 2;
+}
+@media (min-width: 520px) {
+  html body #content #timer_group {
+    height: 500px;
+  }
+}
+@media (max-width: 520px) {
+  html body #content #timer_group {
+    min-height: 500px;
+  }
 }
 html body #content #timer_layer_back {
   background: url("/img/castello.jpg");
@@ -227,10 +280,24 @@ html body #content #timer_layer {
   font-size: 300%;
   position: relative;
   z-index: 5;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-  transform: translateY(-50%);
   text-align: center;
+}
+@media (max-width: 760px) {
+  html body #content #timer_layer {
+    font-size: 200%;
+  }
+}
+@media (max-width: 640px) {
+  html body #content #timer_layer {
+    font-size: 300%;
+  }
+}
+@media (min-width: 520px) {
+  html body #content #timer_layer {
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
 }
 html body #content #timer_layer .countdown-section {
   display: inline-block;
@@ -238,16 +305,35 @@ html body #content #timer_layer .countdown-section {
 }
 html body #content #timer_layer .countdown-period {
   display: block;
-  width: 222px;
+}
+@media (min-width: 1024px) {
+  html body #content #timer_layer .countdown-period {
+    width: 222px;
+  }
+}
+@media (max-width: 640px) {
+  html body #content #timer_layer .countdown-period {
+    width: 222px;
+  }
 }
 html body #content h4 {
   margin: 0;
   font-size: 200%;
   padding-left: 15px;
 }
+@media (max-width: 640px) {
+  html body #content h4 {
+    font-size: 150%;
+  }
+}
 html body #content h5 {
   font-size: 140%;
   padding-left: 15px;
+}
+@media (max-width: 640px) {
+  html body #content h5 {
+    font-size: 120%;
+  }
 }
 html body #content .info h5 {
   margin: 0;
@@ -257,7 +343,12 @@ html body #content .info ul {
   padding-left: 15px;
   margin-top: 0;
 }
+html body #content #event_section .heading {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
 html body #content #event_section h3 {
+  margin-top: 5px;
   margin-bottom: 5px;
 }
 html body #content #event_section h4 {
@@ -267,6 +358,11 @@ html body #content #event_section h4 {
 html body #content #event_section h5 {
   font-size: 200%;
   margin-bottom: 5px;
+}
+@media (max-width: 640px) {
+  html body #content #event_section h5 {
+    font-size: 150%;
+  }
 }
 html body #content #event_section p {
   margin-top: 0;
@@ -296,6 +392,7 @@ html body #content #travel_group {
 html body #content #travel_group #travel_back {
   background: url("/img/travel.jpg");
   background-size: cover;
+  background-position: 10%;
   z-index: 4;
 }
 html body #content #travel_group #travel_base {
@@ -310,6 +407,11 @@ html body #content #todo_section h6 {
   margin: 0;
   padding-left: 15px;
   font-size: 125%;
+}
+@media (max-width: 640px) {
+  html body #content #todo_section h6 {
+    font-size: 110%;
+  }
 }
 html body #content #todo_section p {
   margin-top: 0;
@@ -400,7 +502,7 @@ html body #content #bottom_white {
 }
 html body #content #map {
   height: 500px;
-  max-height: 40%vh;
+  max-height: 40vh;
   position: relative;
   margin-top: 50px;
   margin-bottom: 0;
@@ -420,9 +522,11 @@ html body #content section {
   margin-left: auto;
   margin-right: auto;
 }
-html body #content .half {
-  min-width: 375px;
-  display: inline-block;
-  width: 49%;
-  vertical-align: top;
+@media (min-width: 750px) {
+  html body #content .half {
+    min-width: 375px;
+    display: inline-block;
+    width: 49%;
+    vertical-align: top;
+  }
 }
