@@ -5,6 +5,13 @@
   bottom: 0;
   right: 0;
 }
+.parallax {
+  position: absolute;
+  top: -300px;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
 html body {
   margin: 0;
   font-family: Muli;
@@ -204,6 +211,7 @@ html body #content #welcome_group section {
   text-align: center;
 }
 html body #content #timer_group {
+  overflow: hidden;
   position: relative;
   height: 500px;
   z-index: 2;
@@ -280,6 +288,7 @@ html body #content #travel_section ul {
   margin-top: 0;
 }
 html body #content #travel_group {
+  overflow: hidden;
   position: relative;
   z-index: 0;
   height: 500px;
@@ -287,8 +296,6 @@ html body #content #travel_group {
 html body #content #travel_group #travel_back {
   background: url("/img/travel.jpg");
   background-size: cover;
-  background-position: 10%;
-  height: 100%;
   z-index: 4;
 }
 html body #content #travel_group #travel_base {
@@ -339,6 +346,7 @@ html body #content #rsvp_section .green ::-webkit-input-placeholder {
   color: #87af8c;
 }
 html body #content #rsvp_section .white {
+  z-index: 5;
   position: relative;
   padding-top: 40px;
   padding-bottom: 40px;

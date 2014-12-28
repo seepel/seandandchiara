@@ -3,6 +3,7 @@ scrollTop = 0;
 titleTrigger = 0;
 footerTrigger = 0;
 bodyHeight = 0;
+windowHeight = 0;
 didInit = false;
 
 var $trigger;
@@ -31,8 +32,9 @@ function init() {
   $title = $('#title_background');
   $footer = $('#footer_background');
   bodyHeight = $('#content').height();
+  windowHeight = $(window).height();
   titleTrigger = $title.height() + 100;;
-  footerTrigger = bodyHeight - $(window).height() - $footer.height() - 100;
+  footerTrigger = bodyHeight - windowHeight - $footer.height() - 100;
   if(titleTrigger) {
     console.log(titleTrigger);
     didInit = true;
@@ -71,6 +73,27 @@ function update() {
       $footer.css({ opacity: 0 });
     }
   }
+
+  $('.parallax').each(function(i, parallax) {
+    $parallax = $(parallax);
+    parallaxHeight = $parallax.height();
+    parentScrollTop = $parallax.parent().offset().top;
+    parentHeight = $parallax.parent().height();
+    if(scrollTop > parentScrollTop + parentHeight) {
+      return;
+    }
+    if(scrollTop + windowHeight < parentScrollTop) {
+      return
+    }
+    totalDistance = windowHeight + parentHeight;;
+    distance = parentScrollTop + parentHeight - scrollTop;
+    percent = (totalDistance - distance)/totalDistance;
+    if(percent < 0 || percent > 1) {
+      return;
+    }
+    translate = Math.round((parallaxHeight - parentHeight)*percent);
+      $parallax.css({ transform: 'translate3d(0, ' + translate + 'px, 0)' });
+  });
 }
 
 
