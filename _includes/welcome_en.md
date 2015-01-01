@@ -1,4 +1,4 @@
-  Hi everyone! As you probably know Sean and I got married on December 12 of 2014 in San Francisco. We had a beautiful small ceremony with our parents and some of our closest friends.
+  Hi everyone! As you probably know Sean and I got married on December 12 of 2013 in San Francisco. We had a beautiful small ceremony with our parents and some of our closest friends.
  
   We really wanted to be able to get to celebrate with all of you and have our American and Italian friends and families meet and get to know each other. We would love to have you at our wedding reception in Italy.
   
