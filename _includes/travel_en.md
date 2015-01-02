@@ -5,7 +5,7 @@
 </div>
 
 #### How to get to Saluzzo
-  Fell free to let us know your travel plans and let us help you organize the best transport solution to come to Saluzzo.
+  Feel free to let us know your travel plans and let us help you organize the best transport solution to come to Saluzzo.
 
 <div class="sub_section">
 <div class="half">

@@ -26,7 +26,7 @@ function animateNavs(navs, i, expand, callback) {
 function toggleNav() {
   $header = $('header');
   $menu = $('#mobile_menu');
-  navs = [$('#nav_event'), $('#nav_travel'), $('#nav_accommodation'), $('#nav_tour')];
+  navs = [$('#nav_1'), $('#nav_2'), $('#nav_3'), $('#nav_4')];
   if($header.hasClass('expanded')) {
     animateNavs(navs, 0, false, function() {
     });

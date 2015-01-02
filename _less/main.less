@@ -8,7 +8,7 @@
 @red: rgb(191, 68, 77);
 @link-color: rgb(90, 90, 90);
 
-@collapse-nav: 640px;
+@collapse-nav: 888px;
 
 @footer-color: @green;
 @footer-highlight: white;
@@ -40,6 +40,25 @@ html {
         height: @top-height;
         padding-top: 25px;
       }
+      .flag {
+        z-index: 20;
+        position: absolute;
+        left: 10px;
+        top: 24px;
+        width: 44px;
+        height: 28px;
+        padding-top: 0; 
+        padding-bottom: 0; 
+        opacity: 1; 
+        -webkit-transform: translate3d(0, 0, 0); 
+        transform: translate3d(0, 0, 0); 
+      }
+      #english {
+        background: url("/img/english.png");
+      }
+      #italian {
+        background: url("/img/italian.png");
+      }
       #mobile_menu {
         @media (max-width: @collapse-nav) {
           position: absolute;
@@ -54,6 +73,11 @@ html {
           transform: translate3d(0, 0, 0);
         }
         @media (min-width: @collapse-nav) {
+          position: absolute;
+          left: 0;
+          top: 0;
+          width: 0;
+          height: 0;
           visibility: hidden;
         }
       }
@@ -371,6 +395,12 @@ html {
           margin-top: 0;
         }
       }
+      
+      #welcome_section {
+        p {
+          text-align: center;
+        }
+      }
 
       #event_section {
         .heading {
@@ -582,6 +612,20 @@ html {
           width: 49%;
           vertical-align: top;
           }
+      }
+      
+      #registry {
+        margin-bottom: 30px;
+     }
+      
+      #lista-nozze {
+        margin-top: 5px;
+        margin-bottom: 5px;
+      }
+      
+      #vi-aggiorneremo-presto {
+        text-align: center;
+        color: gray;
       }
     }
   }

@@ -4,11 +4,5 @@
   
   We will be using this website to post information about the ceremony, accommodation, travel info and anything we think might be useful for you.
 We will update it with more details as we get closer to the date, so come back and check from time to time. Don’t forget to RSVP and shoot us an email if you have any question!
-{% capture emails %}
-  * **Sean:** sean at seanplynch dot com
-  * **Chiara:** chiarafornasero at yahoo dot com
-{% endcapture %}
 
-<div class="info">
-{{ emails | markdownify }}
-</div>
+

@@ -34,7 +34,26 @@ html body header nav {
   height: 75px;
   padding-top: 25px;
 }
-@media (max-width: 640px) {
+html body header .flag {
+  z-index: 20;
+  position: absolute;
+  left: 10px;
+  top: 24px;
+  width: 44px;
+  height: 28px;
+  padding-top: 0;
+  padding-bottom: 0;
+  opacity: 1;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+html body header #english {
+  background: url("/img/english.png");
+}
+html body header #italian {
+  background: url("/img/italian.png");
+}
+@media (max-width: 888px) {
   html body header #mobile_menu {
     position: absolute;
     left: 0;
@@ -48,8 +67,13 @@ html body header nav {
     transform: translate3d(0, 0, 0);
   }
 }
-@media (min-width: 640px) {
+@media (min-width: 888px) {
   html body header #mobile_menu {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 0;
     visibility: hidden;
   }
 }
@@ -59,7 +83,7 @@ html body header a {
   margin-left: 20px;
   margin-right: 20px;
 }
-@media (max-width: 640px) {
+@media (max-width: 888px) {
   html body header a {
     display: block;
     padding-top: 5vh;
@@ -165,7 +189,7 @@ html body #content h3 {
   z-index: 1;
   text-align: center;
 }
-@media (max-width: 640px) {
+@media (max-width: 888px) {
   html body #content h3 {
     font-size: 200%;
   }
@@ -321,7 +345,7 @@ html body #content h4 {
   font-size: 200%;
   padding-left: 15px;
 }
-@media (max-width: 640px) {
+@media (max-width: 888px) {
   html body #content h4 {
     font-size: 150%;
   }
@@ -330,7 +354,7 @@ html body #content h5 {
   font-size: 140%;
   padding-left: 15px;
 }
-@media (max-width: 640px) {
+@media (max-width: 888px) {
   html body #content h5 {
     font-size: 120%;
   }
@@ -342,6 +366,9 @@ html body #content .info ul {
   list-style: none;
   padding-left: 15px;
   margin-top: 0;
+}
+html body #content #welcome_section p {
+  text-align: center;
 }
 html body #content #event_section .heading {
   margin-top: 1em;
@@ -359,7 +386,7 @@ html body #content #event_section h5 {
   font-size: 200%;
   margin-bottom: 5px;
 }
-@media (max-width: 640px) {
+@media (max-width: 888px) {
   html body #content #event_section h5 {
     font-size: 150%;
   }
@@ -408,7 +435,7 @@ html body #content #todo_section h6 {
   padding-left: 15px;
   font-size: 125%;
 }
-@media (max-width: 640px) {
+@media (max-width: 888px) {
   html body #content #todo_section h6 {
     font-size: 110%;
   }
@@ -533,4 +560,15 @@ html body #content section {
     width: 49%;
     vertical-align: top;
   }
+}
+html body #content #registry {
+  margin-bottom: 30px;
+}
+html body #content #lista-nozze {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+html body #content #vi-aggiorneremo-presto {
+  text-align: center;
+  color: gray;
 }
