@@ -426,10 +426,10 @@ html body #content #rsvp_section {
 }
 html body #content #rsvp_section h3 {
   background-color: #41884a;
-  color: white;
+  color: #ffffff;
 }
 html body #content #rsvp_section .text_line {
-  background-color: white;
+  background-color: #ffffff;
 }
 html body #content #rsvp_section .rsvp_input {
   -webkit-margin-collapse: separate;
@@ -483,7 +483,7 @@ html body #content #rsvp_section select {
   font-size: 175%;
   --webkit-border-radius: 10px;
   border-radius: 10px;
-  border: 1px solid white;
+  border: 1px solid #ffffff;
   padding: 10px;
   background-color: #bf444d;
 }
@@ -502,7 +502,6 @@ html body #content #bottom_white {
 }
 html body #content #map {
   height: 500px;
-  max-height: 40vh;
   position: relative;
   margin-top: 50px;
   margin-bottom: 0;
@@ -513,6 +512,11 @@ html body #content #map {
   border-bottom-color: black;
   border-bottom-width: 1px;
   padding-bottom: 0;
+}
+@media (pointer: course) {
+  html body #content #map {
+    max-height: 40vh;
+  }
 }
 html body #content section {
   z-index: 4;

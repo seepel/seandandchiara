@@ -551,7 +551,9 @@ html {
 
       #map {
         height: 500px;
-        max-height: 40vh;
+        @media (pointer:course) {
+          max-height: 40vh;
+        }
         position: relative;
         margin-top: 50px;
         margin-bottom: 0;
