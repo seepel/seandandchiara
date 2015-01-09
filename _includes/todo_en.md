@@ -26,6 +26,7 @@ Tourism office: [Saluzzo](http://www.saluzzoturistica.it/itinerari_scheda.php?id
 {% capture do_include %}{% include do_en.md %}{% endcapture %}
 {{ do_include | markdownify }}
 </div>
+
 ##### Where to eat
 
 <div class="info">
