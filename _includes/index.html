@@ -17,7 +17,11 @@
                 <span id="and">&</span>
                 <span id="chiara">Chiara</span>
             </h1>
+            {% if page.lang == 'it' %}
+            <h2>27.06.2015</h2>
+            {% else %}
             <h2>06.27.15</h2>
+            {% endif %}
         </div>
 
         {% capture welcome_include %}{% include welcome.md %}{% endcapture %}

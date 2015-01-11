@@ -1,5 +1,5 @@
 #### Hotel Antico Podere Propano
-  This beautiful country hotel is a little oasis of peace and nature. It’s the ideal choice if you are looking for a country setting with a view on the mountains right next to the town center.  It’s still walking distance from downtown Saluzzo (15 mins), but it’s closer to a trafficked road which is not always easy to cross on foot, so you might want to use a car and park it in Saluzzo’s city center.
+  This beautiful country hotel is a little oasis of peace and nature. It’s the ideal choice if you are looking for a country setting with a view on the mountains right next to the town center.  It’s still walking distance from downtown Saluzzo (15 mins), but it’s closer to a trafficked road which is not always easy to cross on foot, so you might need a car to get around.
 
 
  

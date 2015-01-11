@@ -4,8 +4,8 @@
 {% include welcome_it.md %}
 {% endif %}
 {% capture emails %}
-  * **Sean:** sean at seanplynch dot com
-  * **Chiara:** chiarafornasero at yahoo dot com
+  * **Sean:** [sean@seanplynch.com](mailto:sean@seanplynch.com)
+  * **Chiara:** [chiarafornasero@yahoo.com](mailto:chiarafornasero@yahoo.com)
 {% endcapture %}
 
 <div class="info">

@@ -32,7 +32,3 @@
 {{ taxi_include | markdownify }}
 </div>
 
-<div class="sub_section">
-{% capture public_transportation_include %}{% include public_transportation_en.md %}{% endcapture %}
-{{ public_transportation_include | markdownify }}
-</div>

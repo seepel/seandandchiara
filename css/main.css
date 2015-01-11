@@ -428,23 +428,26 @@ html body #content #travel_group #travel_base {
 html body #content #todo_section h5 {
   margin-bottom: 5px;
 }
-html body #content #todo_section h6 {
+html body #content #todo_section #tours-and-trips {
   color: gray;
   margin: 0;
   padding-left: 15px;
   font-size: 125%;
 }
 @media (max-width: 888px) {
-  html body #content #todo_section h6 {
+  html body #content #todo_section #tours-and-trips {
     font-size: 110%;
   }
+}
+html body #content #todo_section h6 {
+  margin: 0;
+  padding-left: 15px;
+  font-size: 95%;
 }
 html body #content #todo_section p {
   margin-top: 0;
 }
 html body #content #todo_section ul {
-  list-style: none;
-  padding-left: 15px;
   margin-top: 0;
 }
 html body #content #rsvp_section {
