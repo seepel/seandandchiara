@@ -125,12 +125,24 @@ html body #title_background {
   top: 75px;
   left: 0;
   right: 0;
+  bottom: 0;
   text-align: center;
   width: 100%;
-  background: url('/img/cs-0590.jpg');
-  background-position: 53% 100%;
-  background-size: cover;
+  background: url('/img/heads.jpg');
+  background-position: 50% 0%;
+  background-size: 100%;
+  background-repeat: no-repeat;
   z-index: -1;
+}
+@media (max-width: 480px) {
+  html body #title_background {
+    background-size: 150%;
+  }
+}
+@media (min-width: 1080px) {
+  html body #title_background {
+    background-position: 50% -10vw;
+  }
 }
 html body .footer {
   height: 375px;
@@ -141,11 +153,24 @@ html body #footer_background {
   bottom: 0;
   left: 0;
   right: 0;
-  width: 100%;
-  background: url('/img/cs-0644.jpg');
-  background-position: 53% 100%;
-  background-size: cover;
+  background: url('/img/feet.jpg');
+  background-position: 50% 100%;
+  background-size: 100%;
+  padding-top: 300px;
+  margin-top: -300px;
+  background-repeat: no-repeat;
   z-index: -2;
+}
+@media (max-width: 480px) {
+  html body #footer_background {
+    background-size: 130%;
+  }
+}
+@media (min-width: 1040px) {
+  html body #footer_background {
+    background-position: 50% 70%;
+    background-size: 100%;
+  }
 }
 html body #content {
   overflow: hidden;
