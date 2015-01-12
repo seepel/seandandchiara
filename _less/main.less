@@ -150,7 +150,15 @@ html {
       bottom: 0;
       text-align: center;
       width: 100%;
-      background: url('/img/heads.jpg'); 
+      background-image: url('/img/heads.jpg');
+      
+      @media (max-width: 1280px) {
+        background-image: url('/img/heads-1280.jpg');
+      }
+      
+      @media (max-width: 640px) {
+        background-image: url('/img/heads-640.jpg');
+      }
       background-position: 50% 0%; 
       background-size: 100%;
       background-repeat: no-repeat;
@@ -173,12 +181,17 @@ html {
       bottom: 0;
       left: 0;
       right: 0;
-      background:url('/img/feet.jpg'); 
-      background-position: 50% 100%;
-      background-size: 100%;
-      @media (max-width: 480px) {
-        background-size: 130%;
+      background-image:url('/img/feet.jpg');
+      
+      @media(max-width: 1280px) {
+        background-image: url('/img/feet-1280.jpg');
       }
+      
+      @media (max-width: 640px) {
+        background-image: url('/img/feet-640.jpg');
+      }
+      background-position: 50% 100%;
+      background-size: 130%;
       @media (min-width: 1040px) {
         background-position: 50% 70%;
         background-size: 100%;
@@ -345,7 +358,7 @@ html {
       }
 
       #timer_layer_back {
-        background: url("/img/castello.jpg");
+        background-image: url("/img/castello.jpg");
         background-size: cover;
         background-position: 50%;
         z-index: 2;
