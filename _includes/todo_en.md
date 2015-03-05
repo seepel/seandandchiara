@@ -19,8 +19,8 @@
 ###### Monday, June 29
   Panoramic and eno-gastronomic tour of the wine country region of [Le Langhe](http://www.langheroero.it/index.jsp?idProgetto=2):  
   
- * Guided tour of [Banca del Vino](http://www.bancadelvino.it/welcome_eng.lasso), historical cellar established to preserve the best wines of Italy in the [Agenzia di Pollenzo](http://www.residenzereali.it/index.php/en/residenze-reali-del-piemonte/tenuta-reale-di-pollenzo), the country estate of King Carlo Alberto of Savoy in the ancient roman town of Pollenzo. It’s a UNESCO World Heritage Site which now houses the University of Gastronomic science. 
- * lunch at the Agenzia di Pollenzo restaurant
+ * Guided tour of [Banca del Vino](http://www.bancadelvino.it/welcome_eng.lasso), historical cellar established to preserve the best wines of Italy in the [Agenzia di Pollenzo](http://www.residenzereali.it/index.php/en/residenze-reali-del-piemonte/tenuta-reale-di-pollenzo), the country estate of the King in the ancient roman town of Pollenzo. 
+ * lunch in Pollenzo 
  * visit to a local winery and vineyard with wine tasting and possibility to buy wine
  * dinner at a local restaurant
 
@@ -76,9 +76,6 @@ The most typical Aperitivo drink is Spritz: Aperol liquer, Prosecco white wine a
   
  * [Bar Beppe](http://www.saluzzoturistica.it/ospitalita_scheda.php?id=2127)  
  
-###### Yummy pastries:  
-
- * Pasticceria Almonte, 21, Corso Italia - 12037 Saluzzo  
 
 {% capture rest_of_italy %}
 #### Visit the rest of Italy
@@ -94,7 +91,7 @@ The most typical Aperitivo drink is Spritz: Aperol liquer, Prosecco white wine a
 
 {% capture turin_sub %}
    * [10 reasons to visit](http://slowitaly.yourguidetoitaly.com/2013/11/10-reasons-why-turin-should-be-on-your-italy-bucket-list/)
-   * visit the former residence of the monarchy in Italy: [La Reggia di Venaria](http://www.lavenaria.it/web/index.php)  
+   * visit the former residence of the Italian royal family: [La Reggia di Venaria](http://www.lavenaria.it/web/index.php)  
  {% endcapture %}
  <div id="turin_sub">
  {{ turin_sub | markdownify }}
