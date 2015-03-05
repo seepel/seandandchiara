@@ -3,16 +3,16 @@
 {{ '### Make it a Trip!' | markdownify }}
 <div class="text_line right"></div>
 </div>
+  If you have any questions on how to organize your trip, please contact us at [wedding@seanandchiara.com](mailto:wedding@seanandchiara.com)
   
 #### June 28-30: Tours and trips in the Saluzzo area
 
   We are organizing some trips near Saluzzo that we can take as a group.  
-If you have any questions, please do not hesitate to contact us at [wedding@seanandchiara.com](mailto:wedding@seanandchiara.com)
 
 ###### Sunday, June 28 
   Exploring Saluzzo:
   
- * tour of its historical center with an old castle, the Cathedral, the Convent of San Giovanni and the Casa Cavassa museum, residence of the general vicars of the Marquis and typical example of Renaissance-style building
+ * tour of its historical center: the castle, the Cathedral, the Convent of San Giovanni and the Casa Cavassa museum, residence of the general vicars of the Marquis and typical example of Renaissance-style building
  * tour of the Cistercian Gothic Abbey of Staffarda 
  * dinner at [Il sigillo](http://www.tripadvisor.it/Restaurant_Review-g2292144-d2274805-Reviews-Ristorante_Il_Sigillo-Staffarda_Province_of_Cuneo_Piedmont.html) restaurant
 
@@ -29,7 +29,7 @@ If you have any questions, please do not hesitate to contact us at [wedding@sean
   
   * we'll get to see these beautiful [mountains](http://en.cuneo360.it/itinerari) up close 
   * we'll choose an Alpine shelter that can be accessed both by car and by hiking, where we can all meet for lunch
- * if anybody is interested, we can make it a 2-day hiking trip and spend the night in an Alpine shelter/refuge
+  * if anybody is interested, we can make it a 2-day hiking trip and spend the night in an Alpine shelter/refuge
  
 
 #### More about Saluzzo 
@@ -81,14 +81,14 @@ The most typical Aperitivo drink is Spritz: Aperol liquer, Prosecco white wine a
  * Pasticceria Almonte, 21, Corso Italia - 12037 Saluzzo  
 
 {% capture rest_of_italy %}
-#### Rest of Italy
-If you are flying to Turin or Milan, it might a good idea to spend a day of two there before you come to Saluzzo. 
+#### Visit the rest of Italy
+If you are flying to Turin, it might a good idea to spend a day of two there before you come to Saluzzo.  
 **Turin:** 1h by train from Saluzzo
  * [10 reasons to visit](http://slowitaly.yourguidetoitaly.com/2013/11/10-reasons-why-turin-should-be-on-your-italy-bucket-list/)
  * visit the former residence of the monarchy in Italy: [La Reggia di Venaria](http://www.lavenaria.it/web/index.php)  
-See below our suggestions for best places to visit in the rest of Italy and their distance from Turin.
-**Cinque Terre:** 4h by train from Turin. More info [here](http://www.lecinqueterre.org/eng)
-**Lake maggiore:**3h30 by train from Turin. More info [here](http://www.discoverlakemaggiore.com)
+See below some suggestions for best places to visit in the rest of Italy and their distance from Turin.
+**Cinque Terre:** 4h by train from Turin. More info [here](http://www.lecinqueterre.org/eng)  
+**Lake maggiore:** 3h30 by train from Turin. More info [here](http://www.discoverlakemaggiore.com)
 **Florence:** 3h by train from Turin  
 **Rome:** 4.5h by train from Turin  
 **Venice:** 4.5h by train from Turin  
