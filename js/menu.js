@@ -26,7 +26,11 @@ function animateNavs(navs, i, expand, callback) {
 function toggleNav() {
   $header = $('header');
   $menu = $('#mobile_menu');
-  navs = [$('#nav_1'), $('#nav_2'), $('#nav_3'), $('#nav_4')];
+  if(window.location.pathname.indexOf('it') >= 1) {
+    navs = [$('#nav_1'), $('#nav_2'), $('#nav_3'), $('#nav_4')];
+  } else { 
+    navs = [$('#nav_1'), $('#nav_2'), $('#nav_3'), $('#nav_4'), $('#nav_5')];
+  }
   if($header.hasClass('expanded')) {
     animateNavs(navs, 0, false, function() {
     });

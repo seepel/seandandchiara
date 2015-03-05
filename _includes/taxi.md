@@ -1,7 +1,7 @@
 #### Taxi
 
   If you don’t want to go through the hassle of renting a car or taking public transport, you can always take a taxi. It will cost you around €100 one way from Turin and around €260 from Milano Malpensa.
-  You can either take one of the taxis at the airport or get in touch ahead of time with one of the taxi services from Saluzzo: 
+  If you need a taxi in Saluzzo and nearby contact: 
 
 <div class="half info">
 {% capture rosso_taxi_include %}{% include rosso_taxi.md %}{% endcapture %}

@@ -29,9 +29,7 @@
     </section>
 </div>
 
-{% if page.lang == 'en' %}
-<div class="anchor" id="event"></div>
-{% endif %}
+
 <div id="timer_group">
     <div id="timer_layer_back" class="parallax">
         <div style="background-color: rgba(0,0,0,0.6);" class="full-size"></div>
@@ -45,7 +43,12 @@
         </script>
     </div>
 </div>
-<div class="white" {% if page.lang == 'it' %}id="bottom_white" style="border-bottom: solid 1px black;"{% endif %}>
+<div class="white">
+   {% if page.lang == 'en' %}
+    <div class="anchor" id="event"></div>
+    {% else %}
+    <div class="anchor" id="lafesta"></div>
+    {% endif %} 
     <section id="event_section">
         {% capture event_include %}{% include event.md %}{% endcapture %}
         {{ event_include | markdownify }}
@@ -71,20 +74,20 @@
     <div id="travel_base" class="full-size"></div>
     <div id="travel_back" class="parallax"></div>
 </div>
+{% endif %}
 
-<div class="anchor" id="accomodation"></div>
-<div class="white" id="bottom_white">
+<div class="white" {% if page.lang == 'en' %}id="bottom_white" {% endif %}>
+{% if page.lang == 'en' %}
+    <div class="anchor" id="accomodation"></div>
     <section id="accomodation_section">
         {% capture accomodation_include %}{% include accomodation_en.md %}{% endcapture %}
         {{ accomodation_include | markdownify }}
     </section>
-
-    <div class="anchor" id="tour"></div>
-    <section id="todo_section">
-        {% capture todo_include %}{% include todo_en.md %}{% endcapture %}
-        {{ todo_include | markdownify }}
-    </section>
-
+{% endif %}
+    
+{% include todo.md %}
+        
+{% if page.lang != 'it' %}
     <div id="map">
         <script>
             L.mapbox.accessToken = 'pk.eyJ1Ijoic2VlcGVsIiwiYSI6ImZtMnhmb00ifQ.-s0bpFVh6kO66jtyfeVMbw';
@@ -97,9 +100,14 @@
             if (map.tap) map.tap.disable();
         </script>
     </div>
-</div>
 {% endif %}
+</div>
+{% if page.lang == 'it' %}
+<div class="anchor" id="verrai"></div>
+{% else %}
 <div class="anchor" id="rsvp"></div>
+{% endif %}
 <section id="rsvp_section">
+    {% include rsvp.html %}  
 </section>
 <div class="footer"> </div>

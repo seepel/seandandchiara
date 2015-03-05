@@ -5,43 +5,42 @@
 </div>
   2015 is a great year to visit Italy, since many cities are hosting important events like the [Expo 2015](http://www.expo2015.org/en/index.html?packedargs=op=changeLang) in Milan and the [Holy Shroud Exposition](http://www.sindone.org/the_holy_shroud__english_/online_reservations_and_call_/00024633_Reservation.html) in Turin. In June the weather is nice, yet not too hot (around 68-80 F) and tourist attractions are not excessively crowded (yet!).
 
-  We will post here are a few ideas and useful info if you are planning on staying in the Saluzzo area for a few days. If you have any questions, please do not hesitate to contact Chiara at [chiarafornasero@yahoo.com](mailto:chiarafornasero@yahoo.com)
+  If you have any questions, please do not hesitate to contact us at [wedding@seanandchiara.com](mailto:wedding@seanandchiara.com)
 
-#### Saluzzo and Nearby
-  Chiara’s hometown is an ancient medieval and Renaissance town in the north west of Italy, in the region of Piedmont. This is article has a great summary of what makes Saluzzo special and a few useful tips for visitors: [http://www.miomyitaly.com/saluzzo.html](http://www.miomyitaly.com/saluzzo.html)
+#### June 28-30
 
-##### June 25-30
+##### Tours and trips
+  
+  We are organizing some trips near Saluzzo that we can take as a group. Here are some preliminary ideas. We’ll keep you posted if anything changes!
 
-###### Tours and trips
-  We are thinking of organizing group tours of the town of Saluzzo and surrounding areas, such as Turin, the wine region of Le Langhe and maybe a trip to the mountains.   
-We’ll keep you posted!
+###### Sunday, June 28 
+  Exploring Saluzzo:
+  
+ * its historical center with an old castle, the Cathedral, the Convent of San Giovanni and the Casa Cavassa museum, residence of the general vicars of the Marquis and typical example of Renaissance-style building
+ * tour of the Cistercian Gothic Abbey of Staffarda 
+ * dinner at [Il sigillo](http://www.tripadvisor.it/Restaurant_Review-g2292144-d2274805-Reviews-Ristorante_Il_Sigillo-Staffarda_Province_of_Cuneo_Piedmont.html) restaurant
 
+###### Monday, June 29
+  Panoramic and eno-gastronomic tour of the wine country region of [Le Langhe](http://www.langheroero.it/index.jsp?idProgetto=2):  
+  
+ * Guided tour of [Banca del Vino](http://www.bancadelvino.it/welcome_eng.lasso), historical cellar established to preserve the best wines of Italy in the [Agenzia di Pollenzo](http://www.residenzereali.it/index.php/en/residenze-reali-del-piemonte/tenuta-reale-di-pollenzo), the country estate of King Carlo Alberto of Savoy in the ancient roman town of Pollenzo. It’s a UNESCO World Heritage Site which now houses the University of Gastronomic science. 
+ * lunch at the Agenzia di Pollenzo restaurant
+ * visit to a local winery and vineyard with wine tasting and possibility to buy wine
+ * dinner at a local restaurant
 
+###### Tuesday, June 30 
+  Trip to the Alps: final destination tbd  
+  
+ * hike on an Alpine hiking trail to get to see these beautiful [mountains](http://en.cuneo360.it/itinerari) up close
+ * depending on who’s interested, we can make it a 2-day hiking trip and spend the night in an Alpine shelter/refuge
+ * or we can choose a refuge that can be accessed also by car, so some us can reach it on foot and the rest can meet us there for lunch
+
+#### Saluzzo and nearby
+  Chiara’s hometown is an ancient medieval and Renaissance town in the north west of Italy, in the region of Piedmont. This article is a great summary of what makes Saluzzo special and a few useful tips for visitors: [http://www.miomyitaly.com/saluzzo.html](http://www.miomyitaly.com/saluzzo.html).
+  
 ##### What to see
  * [http://www.italythisway.com/places/saluzzo.php](http://www.italythisway.com/places/saluzzo.php)  
  * Tourism office: [Saluzzo](http://www.saluzzoturistica.it/itinerari_scheda.php?id=425)
-
-##### What to do
-
-###### Discover Turin: 
-
- * [Turin](http://www.comune.torino.it/canaleturismo/en/)
- 
-###### For the architecture lovers: 
-
- * visit [La Reggia di Venaria](http://www.lavenaria.it/web/index.php)
- 
-###### For the wine lovers and foodies: 
-
- * visit Alba and [Le Langhe](http://www.langheroero.it/index.jsp?idProgetto=2) wine country
- 
-###### For the sporties: 
-
- * [Monviso’s valleys hikes](http://www.piemonteoutdoor.it/web/en/activities/hiking/gran-tour/item/73046-monviso-tour)
-
-
- More to come!
-
 
 ##### Where to eat
 
@@ -84,6 +83,7 @@ The most typical Aperitivo drink is Spritz: Aperol liquer, Prosecco white wine a
 
 ##### Italian Coffee anyone?
   Note that in Italy filter coffee is not common and the closest to American style coffee you can get is an Americano. However you can enjoy delicious espresso, cappuccino and macchiato!  
+  
  * [Bar Beppe](http://www.saluzzoturistica.it/ospitalita_scheda.php?id=2127), 25, Corso Italia, Saluzzo  
  
 ###### Yummy pastries:  
@@ -93,3 +93,21 @@ The most typical Aperitivo drink is Spritz: Aperol liquer, Prosecco white wine a
 ##### Other links
  * [Lonely Planet](http://www.lonelyplanet.com/italy/liguria-piedmont-and-valle-daosta/saluzzo/things-to-do)
  * [Piemonteitalia](http://www.piemonteitalia.eu/en/comuni/dettaglio/21/cuneo/saluzzo.html)
+
+{% capture rest_of_italy %}
+#### Rest of Italy
+**Turin:** 1h by train from Saluzzo
+
+ * [10 reasons to visit](http://slowitaly.yourguidetoitaly.com/2013/11/10-reasons-why-turin-should-be-on-your-italy-bucket-list/)
+ * visit [La Reggia di Venaria](http://www.lavenaria.it/web/index.php)  
+ 
+**Florence:** 3h by train from Turin  
+**Rome:** 4.5h by train from Turin  
+**Venice:** 4.5h by train from Turin  
+**Naples:** 6h by train from Turin, 1.5h flight from Turin  
+**Sicily:** 1h45 flight from Turin  
+{% endcapture %}
+
+<div id="rest_of_italy">
+{{ rest_of_italy | markdownify }}
+</div>

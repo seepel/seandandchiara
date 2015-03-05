@@ -6,13 +6,9 @@
 
 #### Sabato 27 giugno 2015
 
-<div class="anchor" id="location"></div>
-
 ##### Location
   Castello di Castellar. Via cambiano 11, Castellar (CN)  
 Per saperne di più, cliccate [qui](http://www.castellodicastellar.it/storia.html).
-
-<div class="anchor" id="cerimonia"></div>
 
 ##### Cerimonia 
   Poiché siamo ufficialmente già sposati civilmente, la nostra sarà una cerimonia simbolica di rinnovo delle promesse. Avrà carattere informale e personale e siete invitati a partecipare se vi fa piacere (per esempio leggendo una poesia, un brano, un pensiero). La cerimonia si terrà nel castello.
@@ -22,9 +18,6 @@ Per saperne di più, cliccate [qui](http://www.castellodicastellar.it/storia.htm
   * Parcheggio: disponibile ai piedi del castello, dietro il campetto da calcio, sulla destra della chiesa parrocchiale di Castellar
   * Accesso: si può accedere a piedi tramite un sentiero da via Borgo Canavé, ma sarà anche disponibile un bus navetta con partenza davanti alla chiesa parrocchiale
  
-
-<div class="anchor" id="ricevimento"></div>
-
 ##### Ricevimento
   Il ricevimento si terrà in seguito alla cerimonia sempre all’interno del castello.  
 Vi aggiorneremo presto con gli orari. Indicativamente il programma sarà il seguente:
@@ -34,4 +27,8 @@ Vi aggiorneremo presto con gli orari. Indicativamente il programma sarà il segu
  * aperitivo
  * cena placée
  * trasporto in navetta a Saluzzo per chi lo desidera
+
+##### Hotel
+  Se abitate lontano e volete evitare di dover guidare per tornare a casa dopo la festa, abbiamo prenotato delle camere in alcuni alberghi di Saluzzo e potete usufruirne se volete. Probabilmente organizzeremo anche una navetta che dal castello riporta gli ospiti in hotel.  
+Fatemelo solo sapere prima a [matrimonio@seanandchiara.com](mailto:matrimonio@seanandchiara.com), così fermo il numero esatto di camere. 
 

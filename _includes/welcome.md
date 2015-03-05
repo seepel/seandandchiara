@@ -4,8 +4,11 @@
 {% include welcome_it.md %}
 {% endif %}
 {% capture emails %}
-  * **Sean:** [sean@seanplynch.com](mailto:sean@seanplynch.com)
-  * **Chiara:** [chiarafornasero@yahoo.com](mailto:chiarafornasero@yahoo.com)
+{% if page.lang == 'it' %}
+  [matrimonio@seanandchiara.com](mailto:matrimonio@seanandchiara.com)
+{% else %}
+  [wedding@seanandchiara.com](mailto:wedding@seanandchiara.com)
+  {% endif %}
 {% endcapture %}
 
 <div class="info">

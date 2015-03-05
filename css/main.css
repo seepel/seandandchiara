@@ -53,7 +53,7 @@ html body header #english {
 html body header #italian {
   background: url("/img/italian.png");
 }
-@media (max-width: 888px) {
+@media (max-width: 640px) {
   html body header #mobile_menu {
     position: absolute;
     left: 0;
@@ -67,7 +67,7 @@ html body header #italian {
     transform: translate3d(0, 0, 0);
   }
 }
-@media (min-width: 888px) {
+@media (min-width: 640px) {
   html body header #mobile_menu {
     position: absolute;
     left: 0;
@@ -83,7 +83,7 @@ html body header a {
   margin-left: 20px;
   margin-right: 20px;
 }
-@media (max-width: 888px) {
+@media (max-width: 640px) {
   html body header a {
     display: block;
     padding-top: 5vh;
@@ -91,6 +91,25 @@ html body header a {
     opacity: 0;
     -webkit-transform: translate3d(0, -50%, 0);
     transform: translate3d(0, -50%, 0);
+  }
+}
+@media (max-width: 900px) {
+  html body header a {
+    font-size: 125%;
+  }
+}
+@media (max-width: 780px) {
+  html body header a {
+    font-size: 110%;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+@media (max-width: 640px) {
+  html body header a {
+    font-size: 150%;
+    margin-left: 20px;
+    margin-right: 20px;
   }
 }
 html body header a:link {
@@ -229,7 +248,7 @@ html body #content h3 {
   z-index: 1;
   text-align: center;
 }
-@media (max-width: 888px) {
+@media (max-width: 640px) {
   html body #content h3 {
     font-size: 200%;
   }
@@ -384,7 +403,7 @@ html body #content h4 {
   font-size: 200%;
   padding-left: 15px;
 }
-@media (max-width: 888px) {
+@media (max-width: 640px) {
   html body #content h4 {
     font-size: 150%;
   }
@@ -393,7 +412,7 @@ html body #content h5 {
   font-size: 140%;
   padding-left: 15px;
 }
-@media (max-width: 888px) {
+@media (max-width: 640px) {
   html body #content h5 {
     font-size: 120%;
   }
@@ -425,7 +444,7 @@ html body #content #event_section h5 {
   font-size: 200%;
   margin-bottom: 5px;
 }
-@media (max-width: 888px) {
+@media (max-width: 640px) {
   html body #content #event_section h5 {
     font-size: 150%;
   }
@@ -474,7 +493,7 @@ html body #content #todo_section #tours-and-trips {
   padding-left: 15px;
   font-size: 125%;
 }
-@media (max-width: 888px) {
+@media (max-width: 640px) {
   html body #content #todo_section #tours-and-trips {
     font-size: 110%;
   }
@@ -492,6 +511,7 @@ html body #content #todo_section ul {
 }
 html body #content #rsvp_section {
   background-color: #41884a;
+  max-width: 100%;
 }
 html body #content #rsvp_section h3 {
   background-color: #41884a;
@@ -504,6 +524,7 @@ html body #content #rsvp_section .rsvp_input {
   -webkit-margin-collapse: separate;
 }
 html body #content #rsvp_section .green {
+  height: 59px;
   border-color: white;
   color: white;
   padding-bottom: 40px;
@@ -511,18 +532,20 @@ html body #content #rsvp_section .green {
 html body #content #rsvp_section .green input {
   background-color: #41884a;
   border-color: #336539;
-  color: #336539;
+  color: #104826;
 }
 html body #content #rsvp_section .green ::-webkit-input-placeholder {
   color: #87af8c;
 }
-html body #content #rsvp_section .white {
+html body #content #rsvp_section .white_input {
   z-index: 5;
   position: relative;
+  height: 59px;
+  background-color: #ffffff;
   padding-top: 40px;
   padding-bottom: 40px;
 }
-html body #content #rsvp_section .white input {
+html body #content #rsvp_section .white_input input {
   background-color: white;
   border-color: #787878;
 }
@@ -530,9 +553,10 @@ html body #content #rsvp_section .red {
   padding-top: 40px;
   padding-bottom: 160px;
 }
-html body #content #rsvp_section input {
+html body #content #rsvp_section .text-input {
   display: block;
   width: 75%;
+  max-width: 480px;
   margin-left: auto;
   margin-right: auto;
   height: 35px;
@@ -543,18 +567,50 @@ html body #content #rsvp_section input {
   border-width: 2px;
   padding: 10px;
 }
-html body #content #rsvp_section select {
+html body #content #rsvp_section .submit {
   display: block;
   width: 75%;
+  margin-top: 25px;
   margin-left: auto;
   margin-right: auto;
+  max-width: 480px;
   height: 35px;
-  font-size: 175%;
-  --webkit-border-radius: 10px;
+  background-color: #cd2544;
+  border: solid;
+  border-width: 1px;
+  border-color: #505050;
   border-radius: 10px;
-  border: 1px solid #ffffff;
-  padding: 10px;
-  background-color: #bf444d;
+  color: white;
+  font-size: 120%;
+}
+html body #content #rsvp_section .select-style {
+  padding: 0;
+  margin: 0;
+  border: 1px solid #ccc;
+  width: 80%;
+  height: 35px;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 3px;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0);
+  background: #ffffff url("http://www.scottgood.com/jsg/blog.nsf/images/arrowdown.gif") no-repeat 99% 50%;
+}
+html body #content #rsvp_section .select-style select {
+  padding: 5px 8px;
+  width: 130%;
+  border: none;
+  box-shadow: none;
+  background-color: transparent;
+  background-image: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  font-size: 120%;
+}
+html body #content #rsvp_section .select-style select:focus {
+  outline: none;
 }
 html body #content .sub_section {
   margin-bottom: 60px;
@@ -613,4 +669,11 @@ html body #content #lista-nozze {
 html body #content #vi-aggiorneremo-presto {
   text-align: center;
   color: gray;
+}
+html body #content #rest_of_italy p {
+  margin-bottom: 0;
+}
+html body #content #rest_of_italy ul {
+  margin-left: 15px;
+  margin-bottom: 0;
 }

@@ -1,23 +1,78 @@
 <div>
 <div class="text_line left"></div>
-<h3>RSVP</h3>
-<div class="text_line right"></div>
+    {% if page.lang == 'it' %}
+    <h3>Conferma di partecipazione</h3>
+    {% else %}
+    <h3>RSVP</h3>
+    {% endif %}
+    <div class="text_line right"></div>
 </div>
 
-<form id="rsvp_form"></form>
+<form id="rsvp_form" onsubmit="return rsvp()"></form>
 <div class="rsvp_input green">
-<input form="rsvp_form" class="text" id="rsvp_name" type="text" name="name" placeholder="name"/>
+    {% if page.lang == 'it' %}
+    <input form="rsvp_form" class="text text-input" id="rsvp_name" type="text" name="name" placeholder="Nome e cognome"/>
+    {% else %}
+    <input form="rsvp_form" class="text text-input" id="rsvp_name" type="text" name="name" placeholder="name"/>
+    {% endif %}
 </div>
-<div class="rsvp_input white">
-<input form="rsvp_form" class="text" id="rsvp_email" type="text" name="email" placeholder="email"/>
+<div class="rsvp_input white_input">
+<input form="rsvp_form" class="text text-input" id="rsvp_email" type="text" name="email" placeholder="email"/>
 </div>
+
 <div class="rsvp_input red">
-    <select form="rsvp_form" id="rsvp_count" name="count">
-      <option value="1">Just Me</option>
-      <option value="2">+1</option>
-      <option value="3">+2</option>
-      <option value="4">+3</option>
-      <option value="5">+4</option>
-    </select>
+    <div class="select-style">
+        <select form="rsvp_form" id="rsvp_count" name="count">
+            <option value="1">
+                {% if page.lang == 'it' %}
+                Solo io
+                {% else %}
+                Just Me
+                {% endif %}
+            </option>
+            <option value="2">
+                {% if page.lang == 'it' %}
+                Io + 1 altra persona
+                {% else %}
+                +1
+                {% endif %}
+            </option>
+            <option value="3">
+                {% if page.lang == 'it' %}
+                Io + altre 2 persone
+                {% else %}
+                +2
+                {% endif %}
+            </option>
+            <option value="4">
+                {% if page.lang == 'it' %}
+                Io + altre 3 persone
+                {% else %}
+                +3
+                {% endif %}
+            </option>
+            <option value="5">
+                {% if page.lang == 'it' %}
+                Io + altre 4 persone
+                {% else %}
+                +4
+                {% endif %}
+            </option>
+            <option value="0">
+                {% if page.lang == 'it' %}
+                Non ci sarò
+                {% else %}
+                I Can't Make It
+                {% endif %}
+            </option>
+        </select>
+    </div>
+    <button class="submit" onclick="rsvp()">
+        {% if page.lang == 'it' %}
+        Invia
+        {% else %}
+        Submit
+        {% endif %}
+    </button>
 </div>
 
