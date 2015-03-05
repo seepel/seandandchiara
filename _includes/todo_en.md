@@ -71,7 +71,7 @@ The most typical Aperitivo drink is Spritz: Aperol liquer, Prosecco white wine a
  * [Bar Pellico](https://it.foursquare.com/v/caff%C3%A8-pellico/4d8f9f79788c548124c453fd)
 
 
-##### Italian Coffee anyone?
+###### Italian coffee: 
 **Pro tip**: in Italy we don't have filter coffee and the closest thing we have is an Americano. However you can enjoy delicious espresso, cappuccino and macchiato!  
   
  * [Bar Beppe](http://www.saluzzoturistica.it/ospitalita_scheda.php?id=2127)  
