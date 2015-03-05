@@ -675,5 +675,10 @@ html body #content #rest_of_italy p {
 }
 html body #content #rest_of_italy ul {
   margin-left: 15px;
+}
+html body #content #rest_of_italy #turin_sub ul {
+  list-style-type: circle;
+}
+html body #content #rest_of_italy #turin_bullets ul {
   margin-bottom: 0;
 }
