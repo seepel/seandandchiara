@@ -82,7 +82,8 @@ The most typical Aperitivo drink is Spritz: Aperol liquer, Prosecco white wine a
 
 {% capture rest_of_italy %}
 #### Visit the rest of Italy
-If you are flying to Turin, it might a good idea to spend a day of two there before you come to Saluzzo.  
+If you are flying to Turin, it might a good idea to spend a day of two there before you come to Saluzzo.
+  
  * **Turin:** 1h by train from Saluzzo
  * [10 reasons to visit](http://slowitaly.yourguidetoitaly.com/2013/11/10-reasons-why-turin-should-be-on-your-italy-bucket-list/)
  * visit the former residence of the monarchy in Italy: [La Reggia di Venaria](http://www.lavenaria.it/web/index.php)  
