@@ -87,13 +87,13 @@ If you are flying to Turin, it might a good idea to spend a day of two there bef
 * [10 reasons to visit](http://slowitaly.yourguidetoitaly.com/2013/11/10-reasons-why-turin-should-be-on-your-italy-bucket-list/)
 * visit the former residence of the monarchy in Italy: [La Reggia di Venaria](http://www.lavenaria.it/web/index.php)  
 See below some suggestions for best places to visit in the rest of Italy and their distance from Turin.
-* **Cinque Terre:** 4h by train from Turin. More info [here](http://www.lecinqueterre.org/eng)  
-* **Lake maggiore:** 3h30 by train from Turin. More info [here](http://www.discoverlakemaggiore.com)  
-* **Florence:** 3h by train from Turin  
-* **Rome:** 4.5h by train from Turin  
-* **Venice:** 4.5h by train from Turin  
-* **Naples:** 6h by train from Turin, 1.5h flight from Turin  
-* **Sicily:** 1h45 flight from Turin  
+ * **Cinque Terre:** 4h by train from Turin. More info [here](http://www.lecinqueterre.org/eng)  
+ * **Lake maggiore:** 3h30 by train from Turin. More info [here](http://www.discoverlakemaggiore.com)  
+ * **Florence:** 3h by train from Turin  
+ * **Rome:** 4.5h by train from Turin  
+ * **Venice:** 4.5h by train from Turin  
+ * **Naples:** 6h by train from Turin, 1.5h flight from Turin  
+ * **Sicily:** 1h45 flight from Turin  
 {% endcapture %}
 
 <div id="rest_of_italy">
