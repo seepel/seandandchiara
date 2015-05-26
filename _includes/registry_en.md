@@ -1,4 +1,6 @@
-Please, not gifts! The greatest present for us is to be able to spend a day with you and share this important moment with our friends and family.
+Please, no gifts! 
+
+The greatest present for us is to be able to spend a day with you and share this important moment with our friends and family.
 We do not have a wedding registry, as we already have all that we need and we don't want to fill our lives with more "stuff".
 
 If you want to make a contribution, we would really appreciate it if you made a donation to this no-profit organization [I Sogni dei Bambini Onlus](http://www.isognideibambini.it/).
