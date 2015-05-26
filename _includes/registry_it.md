@@ -7,7 +7,7 @@
   Per noi il regalo più grande è la vostra presenza e la possibilità di poter passare una giornata di festa insieme a voi.
   Preferiremmo non ricevere nessun regalo, anche perché per noi è difficile poter spedire o portare in valigia tanti oggetti, per questo abbiamo deciso di non creare una lista nozze.
   
-  Se volete tuttavia partecipare con un contributo, vi invitiamo a fare una donazione all'associazione "I Sogni dei Bambini" ONLUS, un'organizzazione no-profit di cui conosciamo l'organizzatrice che si occupa di aiutare bambini bisognosi in tutto il mondo tramite progetti e iniziative. Per maggiori informazioni, visitate [I Sogni dei Bambini](http://www.isognideibambini.it/).
+  Se volete tuttavia partecipare con un contributo, vi invitiamo a fare una donazione all'associazione "I Sogni dei Bambini" ONLUS, un'organizzazione no-profit di cui conosciamo l'organizzatrice, Elena Mancardo, che si occupa di aiutare bambini bisognosi in tutto il mondo tramite progetti e iniziative legati a scuola, sanità e attività educative. Per maggiori informazioni, visitate [I Sogni dei Bambini](http://www.isognideibambini.it/).
   Le donazioni si possono indirizzare a:
 
 C.Fisc. / Tax ID number: 94038220045
