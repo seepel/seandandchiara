@@ -449,6 +449,14 @@ html body #content #event_section h5 {
     font-size: 150%;
   }
 }
+html body #content #event_section h6 {
+  margin: 0;
+  padding-left: 15px;
+  font-size: 95%;
+}
+html body #content #event_section ul {
+  margin-top: 0;
+}
 html body #content #event_section p {
   margin-top: 0;
 }
