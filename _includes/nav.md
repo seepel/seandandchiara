@@ -10,5 +10,5 @@
 <a id="nav_2" href="#travel">TRAVEL</a>
 <a id="nav_3" href="#accomodation">ACCOMMODATION</a>
 <a id="nav_4" href="#tour">TOUR</a>
-<a id="nav_5" href="#registry">Registry</a>
+<a id="nav_5" href="#registry">REGISTRY</a>
 {% endif %}
