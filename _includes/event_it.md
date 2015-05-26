@@ -23,8 +23,8 @@ Per saperne di più, cliccate [qui](http://www.castellodicastellar.it/storia.htm
   * Trasporto a Saluzzo agli hotel: a partire dalle 22:30
   
 **Trasporti**
-  * Automuniti: potete iniziare ad arirvare a partire dale 15:30
-  * Per chi non viene in macchina: il bus navetta parte dall'Hotel Antico Podere Propano e Hotel Griselda alle 15:00 e 15:30
+  * Automuniti: potete iniziare ad arrivare a partire dale 15:30
+  * Per chi non viene in macchina: il bus navetta parte dall'Hotel Antico Podere Propano e Hotel Griselda alle ore 15:00 e 15:30
 
 **Accesso**
 Sarà anche disponibile un bus navetta con partenza davanti alla chiesa parrocchiale che arriva all'entrata del castello
