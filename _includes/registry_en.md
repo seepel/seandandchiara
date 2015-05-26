@@ -1,3 +1,9 @@
+<div class="heading">
+<div class="text_line left"></div>
+{{ '### Registry' | markdownify }}
+<div class="text_line right"></div>
+</div>
+
 Please, no gifts! 
 
 The greatest present for us is to be able to spend a day with you and share this important moment with our friends and family.

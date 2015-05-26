@@ -100,6 +100,11 @@
             if (map.tap) map.tap.disable();
         </script>
     </div>
+
+<section id="registry">
+    {% capture registry_include %} {% include registry_en.md %}{% endcapture %}
+    {{ registry_include | markdownify }}
+</section>
 {% endif %}
 </div>
 {% if page.lang == 'it' %}
