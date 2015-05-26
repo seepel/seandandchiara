@@ -10,14 +10,14 @@
   Se volete tuttavia partecipare con un contributo, vi invitiamo a fare una donazione all'associazione "I Sogni dei Bambini" ONLUS, un'organizzazione no-profit di cui conosciamo l'organizzatrice, Elena Mancardo, che si occupa di aiutare bambini bisognosi in tutto il mondo tramite progetti e iniziative legati a scuola, sanità e attività educative. Per maggiori informazioni, visitate [I Sogni dei Bambini](http://www.isognideibambini.it/).
   Le donazioni si possono indirizzare a:
 
-C.Fisc. / Tax ID number: 94038220045
-Sede Legale: Via Mortara, 36, 12037 Saluzzo (CN) 
-Registrata a Saluzzo n. 2923 Serie 3 
+C.Fisc. / Tax ID number: 94038220045  
+Sede Legale: Via Mortara, 36, 12037 Saluzzo (CN)   
+Registrata a Saluzzo n. 2923 Serie 3   
 
-CONTO CORRENTE BANCARIO 
-Intestato a: Associazione “I Sogni dei Bambini” ONLUS 
-Banca: CASSA DI RISPARMIO DI SALUZZO SPA 
-IBAN: IT75O0629546770CC0011601808 
+CONTO CORRENTE BANCARIO   
+Intestato a: Associazione “I Sogni dei Bambini” ONLUS   
+Banca: CASSA DI RISPARMIO DI SALUZZO SPA   
+IBAN: IT75O0629546770CC0011601808   
 CONTO POSTALE: n° 76973959 
 
 Al nostro matrimonio ci sarà anche un cestino in cui chi vuole può lasciare una busta con un contributo, che Sean ed io utilizzeremo per ammortizzare i costi dei futuri viaggi tra Italia e Stati Uniti per le vacanze estive e di Natale.
