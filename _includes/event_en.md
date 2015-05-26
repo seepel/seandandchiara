@@ -13,10 +13,17 @@
 ##### Schedule:
 This is a provisionary program. More details to come.
 
- * Transportation from Saluzzo’s hotels to the venue provided
- * Wedding ceremony
- * Tour of the castle
- * Aperitivo- style reception (delicious finger food!)
- * Seated dinner (more delicious food!)
- * Transportation back to the hotels provided
+ * Welcome: from 3:30pm
+ * Ceremony starts: 4:30pm
+ * Picture time: 5:15- 6:00pm
+ * Guided tour of the castle: two groups, at 6:00 e 6:30pm
+ * Aperitivo- style reception (finger food and drinks): 6:00- 8:00pm
+ * Seated dinner: 8:00- 10:30pm
+ * Cake: 10:30pm
+ * Trasportation to the hotel: from 10:30pm onwards on demand
+ 
+**Trasportation**  
+If you are not driving: the shuttle leaves the Hotel Antico Podere Propano e Hotel Griselda at 3:00pm and 3:30pm
 
+**Parking**  
+If you are driving, there is a free parking at the foothill of the castle, lot near the church of Castellar, next to the soccer field. You can then take the shuttle to reach the top of the hill and geto to the castle.
