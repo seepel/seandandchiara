@@ -26,4 +26,4 @@ This is a provisionary program. More details to come.
 If you are not driving: the shuttle leaves the Hotel Antico Podere Propano e Hotel Griselda at 3:00pm and 3:30pm
 
 **Parking**  
-If you are driving, there is a free parking at the foothill of the catsle, lot near the church of Castellar, next to the soccer field.
+If you are driving, there is a free parking at the foothill of the castle, lot near the church of Castellar, next to the soccer field. You can then take the shuttle to reach the top of the hill and geto to the castle.
