@@ -22,8 +22,8 @@ This is a provisionary program. More details to come.
  * Cake: 10:30pm
  * Trasportation to the hotel: from 10:30pm onwards on demand
  
-**Trasportation**
+**Trasportation**  
 If you are not driving: the shuttle leaves the Hotel Antico Podere Propano e Hotel Griselda at 3:00pm and 3:30pm
 
-**Parking**
+**Parking**  
 If you are driving, there is a free parking at the foothill of the catsle, lot near the church of Castellar, next to the soccer field.
