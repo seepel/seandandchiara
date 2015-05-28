@@ -14,10 +14,12 @@ I Sogni dei Bambini (Children's dreams) is an Italian NGO that raises money to k
 
 Part of the website, might soon be in English too, in the meantime you can ask Chiara for more info.  
 
-If you want to make a donation, you can make a bank transfer:  
+You can make a donation by making:
+- a Paypal money transfer to: isognideibambini@gmail.com
+- a bank transfer:  
 Addressed to: Associazione “I Sogni dei Bambini” ONLUS   
 Bank: CASSA DI RISPARMIO DI SALUZZO SPA   
 IBAN: IT75O0629546770CC0011601808   
-CONTO POSTALE/Postal account number: n° 76973959   
-Paypal: soon to come
+
+For more info ask Chiara or elena.mancardo@alice.it
 
