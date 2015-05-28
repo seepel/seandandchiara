@@ -17,8 +17,8 @@ CONTO CORRENTE BANCARIO
 Intestato a: Associazione “I Sogni dei Bambini” ONLUS   
 Banca: CASSA DI RISPARMIO DI SALUZZO SPA   
 IBAN: IT75O0629546770CC0011601808   
-CONTO POSTALE: n° 76973959
-Causale: Lista nozze Chiara e Sean Lynch 
+CONTO POSTALE: n° 76973959   
+Causale: Lista nozze Chiara e Sean Lynch
 
 “I Sogni dei Bambini” ONLUS  
 C.Fiscale: 94038220045  
