@@ -12,10 +12,10 @@ We do not have a wedding registry, as we already have all that we need and we do
 If you want to make a contribution, we would really appreciate it if you made a donation to this no-profit organization [I Sogni dei Bambini Onlus](http://www.isognideibambini.it/).
 I Sogni dei Bambini (Children's dreams) is an Italian NGO that raises money to kick off projects that provide education, shelter, sanitation and medical care for children in need all over the world.  
 
-Part of the website, might soon be in English too, in the meantime you can ask Chiara for more info.  
+Part of the website, will soon be in English too, in the meantime you can ask Chiara for more info.  
 
 You can make a donation by making:
-- a Paypal money transfer to: isognideibambini@gmail.com
+- a Paypal money transfer to: isognideibambini@gmail.com, indicating that it's for the Chiara-Sean Lynch wedding registry
 - a bank transfer:  
 Addressed to: Associazione “I Sogni dei Bambini” ONLUS   
 Bank: CASSA DI RISPARMIO DI SALUZZO SPA   
