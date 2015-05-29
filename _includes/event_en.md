@@ -11,9 +11,9 @@
   We’ll be celebrating our wedding in a XIV century castle in the town of Castellar, about 7km from Saluzzo, at the foothills of the Italian Alps with a stunning view of the Bronda valley. Find more info here: [http://www.castellodicastellar.it/index-english.html](http://www.castellodicastellar.it/index-english.html)
 
 ##### Schedule:
-This is a provisionary program. More details to come.
+This is the (probably) final program. We'll update it if anything changes.
 
- * Welcome: from 3:30pm
+
  * Ceremony starts: 4:30pm
  * Picture time: 5:15 - 6:00pm
  * Guided tour of the castle: two groups, at 6:00 and 6:30pm
