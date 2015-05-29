@@ -16,6 +16,9 @@ html body {
   margin: 0;
   font-family: Muli;
 }
+html body #paypal {
+  text-align: center;
+}
 html body header {
   overflow: hidden;
   position: fixed;

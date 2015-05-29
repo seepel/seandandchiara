@@ -65,6 +65,7 @@
 <section id="registry">
     {% capture registry_include %}{% include registry.md %}{% endcapture %}
     {{ registry_include | markdownify }}
+    {% include paypal.html %}
 </section>
 {% endif %}
 </div>
@@ -105,6 +106,7 @@
 <section id="registry">
     {% capture registry_include %} {% include registry_en.md %}{% endcapture %}
     {{ registry_include | markdownify }}
+    {% include paypal.html %}
 </section>
 {% endif %}
 </div>
