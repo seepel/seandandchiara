@@ -9,9 +9,10 @@
   
   Se volete tuttavia partecipare con un contributo, vi invitiamo a fare una donazione all'associazione "I Sogni dei Bambini" ONLUS, un'organizzazione no-profit di cui conosciamo l'organizzatrice, Elena Mancardo, che si occupa di aiutare bambini bisognosi in tutto il mondo tramite progetti e iniziative legati a scuola, sanità e attività educative. Per maggiori informazioni, visitate [I Sogni dei Bambini](http://www.isognideibambini.it/) o scrivete a elena.mancardo@alice.it.
   
-Le donazioni si possono fare:
-- con PayPal, effettuando un transferimento di denaro indirizzato a: isognideibambini@gmail.com
-- Oppure tramite bonifico bancario:
+Le donazioni si possono fare:  
+
+ * con PayPal, effettuando un transferimento di denaro indirizzato a: isognideibambini@gmail.com
+ * Oppure tramite bonifico bancario:
 
 CONTO CORRENTE BANCARIO   
 Intestato a: Associazione “I Sogni dei Bambini” ONLUS   
