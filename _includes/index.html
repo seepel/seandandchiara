@@ -77,7 +77,7 @@
 </div>
 {% endif %}
 
-<div class="white" {% if page.lang == 'en' %}id="bottom_white" {% endif %}>
+<div class="white">
 {% if page.lang == 'en' %}
     <div class="anchor" id="accomodation"></div>
     <section id="accomodation_section">
@@ -109,13 +109,45 @@
     {% include paypal.html %}
 </section>
 {% endif %}
-</div>
 {% if page.lang == 'it' %}
-<div class="anchor" id="verrai"></div>
+<div class="anchor" id="fotografie"></div>
 {% else %}
-<div class="anchor" id="rsvp"></div>
+<div class="anchor" id="photos"></div>
 {% endif %}
+<section id="photos_section">
+   <div class="heading">
+       <div class="text_line left"></div>
+       {% if page.lang == 'it' %}
+       {{ '### Fotografie' | markdownify }}
+       {% else %}
+       {{ '### Photos' | markdownify }}
+       {% endif %}
+       <div class="text_line right"></div>
+   </div>
+    <p>
+        {% if page.lang == 'it' %}
+        Ecco qui le foto ufficiali scattate dal fotografo Davide Bellucca. Ha creato una web gallery privata sul suo sito. Per accedere vi basta cliccare sul link qui sotto e inserire la password in alto a sinistra.
+    </p>
+    <p>
+    Link:  <a href="http://davidebellucca.com/privates/chiarasean/">http://davidebellucca.com/privates/chiarasean/</a> <br>
+    Password: saluzzo2015
+    </p>
+    <p>
+    Se volete scaricare delle foto, scriveteci a <a href="mailto:matrimonio@seanandchiara.com">matrimonio@seanandchiara.com</a> e vi invieremo istruzioni su come fare o ve le manderemo direttamente via email.
+        {% else %}
+        Here you can find the wedding pictures from our photographer Davide Bellucca. He created a private web gallery on his website that you can access with a password. 
+    </p>
+    <p>
+    Link: <a href="http://davidebellucca.com/privates/chiarasean/">http://davidebellucca.com/privates/chiarasean/</a> <br>
+        Password: saluzzo2015
+        {% endif %}
+    </p>
+</section>
+</div>
+
+<!--
 <section id="rsvp_section">
     {% include rsvp.html %}  
 </section>
+-->
 <div class="footer"> </div>
